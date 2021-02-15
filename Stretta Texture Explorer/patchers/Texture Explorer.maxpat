@@ -255,7 +255,7 @@
 					"patching_rect" : [ 972.000015020370483, 1723.900022983551025, 165.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 900.081378923510329, 818.819851736173632, 96.19999897480011, 35.0 ],
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.545098039215686, 0.545098039215686, 0.545098039215686, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1330,7 +1330,7 @@
 					"presentation_rect" : [ 939.292852078669512, 670.450042426586151, 18.0, 130.0 ],
 					"shape" : 2,
 					"size" : 8,
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -39179,7 +39179,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -39521,7 +39521,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -39863,7 +39863,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -40205,7 +40205,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -40547,7 +40547,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -40889,7 +40889,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -41231,7 +41231,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -41573,7 +41573,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
@@ -41915,7 +41915,7 @@
 						"origin" : "Texture Explorer",
 						"type" : "patcher",
 						"subtype" : "Undefined",
-						"embed" : 0,
+						"embed" : 1,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
