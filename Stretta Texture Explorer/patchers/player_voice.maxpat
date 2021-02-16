@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2478.185418332192967, 200.000005960464478, 54.0, 22.0 ],
+					"text" : "delay 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -394,13 +406,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-64",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2848.0, 3164.0, 52.0, 49.0 ],
-					"text" : "2 0. 327.856986"
+					"patching_rect" : [ 2848.0, 3164.0, 52.0, 22.0 ],
+					"text" : "1 0. 0."
 				}
 
 			}
@@ -947,7 +958,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2349.185418332192967, 212.0, 148.0, 22.0 ],
+					"patching_rect" : [ 2349.185418332192967, 231.333333909511566, 148.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -1305,7 +1316,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.311, 0.821, 0.778, 1.0 ],
+					"activebgoncolor" : [ 0.28, 0.0, 0.0, 0.0 ],
 					"id" : "obj-203",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -5967,7 +5978,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeslidercolor" : [ 0.311, 0.821, 0.778, 1.0 ],
+					"activeslidercolor" : [ 0.28, 0.0, 0.0, 0.0 ],
 					"annotation" : "",
 					"appearance" : 2,
 					"id" : "obj-287",
@@ -6327,7 +6338,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.311, 0.821, 0.778, 1.0 ],
+					"activebgoncolor" : [ 0.28, 0.0, 0.0, 0.0 ],
 					"id" : "obj-255",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -8906,6 +8917,7 @@
 					"allowdrag" : 0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"buffername" : "#1_player",
+					"chanoffset" : 0,
 					"fontname" : "Lato",
 					"gridcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.01 ],
 					"id" : "obj-137",
@@ -8918,9 +8930,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 119.240948851855705, 272.566673874855042, 509.879121205909655, 120.383321642875671 ],
 					"ruler" : 0,
-					"selectioncolor" : [ 0.031, 0.541, 0.498, 0.3 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"vticks" : 0,
-					"waveformcolor" : [ 0.031, 0.541, 0.498, 1.0 ]
+					"waveformcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -8956,7 +8968,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 					"varname" : "number[2]"
 				}
@@ -9017,7 +9029,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.311, 0.821, 0.778, 1.0 ],
+					"activebgoncolor" : [ 0.28, 0.0, 0.0, 0.0 ],
 					"id" : "obj-186",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -9403,7 +9415,7 @@
 
 									}
 ,
-									"textcolor" : [ 0.030999999493361, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"varname" : "number"
 								}
 
@@ -10805,7 +10817,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "number[4]"
 				}
 
@@ -11571,7 +11583,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"bgcolor" : [ "#3" ],
 					"id" : "obj-238",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -12647,7 +12659,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"bgcolor" : [ "#3" ],
 					"id" : "obj-74",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -12707,7 +12719,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "number[3]"
 				}
 
@@ -19741,7 +19753,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.311, 0.821, 0.778, 1.0 ],
+					"activebgoncolor" : [ 0.28, 0.0, 0.0, 0.0 ],
 					"id" : "obj-15",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -21457,7 +21469,7 @@
 					"numleds" : 10,
 					"numoutlets" : 1,
 					"offcolor" : [ 0.0, 0.0, 0.0, 0.04 ],
-					"oncolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"oncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"orientation" : 2,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1231.798527443409057, 2768.999985575675964, 75.000000596046448, 58.0 ],
@@ -22456,7 +22468,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "number[1]"
 				}
 
@@ -22502,7 +22514,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "number"
 				}
 
@@ -22669,7 +22681,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 4384840.031076581217349, "ticks" ],
-						"originaltempo" : 1827.016713140935281,
+						"originaltempo" : 1988.589604552896844,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -22762,7 +22774,7 @@
 					"patching_rect" : [ 2613.14780737353567, 3029.533356130123138, 27.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 649.76308336398472, 175.349995613098145, 34.0, 23.0 ],
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.031, 0.541, 0.498, 1.0 ],
 					"textjustification" : 2
 				}
@@ -23003,7 +23015,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offcolor" : [ 0.0, 0.0, 0.0, 0.04 ],
-					"oncolor" : [ 0.031, 0.541, 0.498, 1.0 ],
+					"oncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1782.200000405311584, 484.333341240882874, 98.0, 28.0 ],
 					"presentation" : 1,
@@ -23030,7 +23042,7 @@
 					"selectioncolor" : [ 0.929411764705882, 0.929411764705882, 0.352941176470588, 0.0 ],
 					"setunit" : 3,
 					"vticks" : 0,
-					"waveformcolor" : [ 0.031, 0.541, 0.498, 1.0 ]
+					"waveformcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -23509,7 +23521,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-180", 1 ],
+					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-164", 0 ]
 				}
 
@@ -24933,6 +24945,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-180", 1 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-52", 0 ]
 				}
@@ -25209,6 +25228,163 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-100::obj-10" : [ "modulation_sequencer[1]", "multislider", 0 ],
+			"obj-100::obj-120" : [ "mod_source_time_ms[1]", "number[1]", 0 ],
+			"obj-100::obj-15" : [ "sequencer_multiplier[1]", "sequencer_multiplier", 0 ],
+			"obj-100::obj-18" : [ "mod_soure_mod_amt[1]", "number[2]", 0 ],
+			"obj-100::obj-19" : [ "mod_source_mod_type[1]", "umenu", 0 ],
+			"obj-100::obj-8" : [ "mod_source_time_ticks[1]", "number", 0 ],
+			"obj-101::obj-10" : [ "modulation_sequencer[2]", "multislider", 0 ],
+			"obj-101::obj-120" : [ "mod_source_time_ms[2]", "number[1]", 0 ],
+			"obj-101::obj-15" : [ "sequencer_multiplier[2]", "sequencer_multiplier", 0 ],
+			"obj-101::obj-18" : [ "mod_soure_mod_amt[2]", "number[2]", 0 ],
+			"obj-101::obj-19" : [ "mod_source_mod_type[2]", "umenu", 0 ],
+			"obj-101::obj-8" : [ "mod_source_time_ticks[2]", "number", 0 ],
+			"obj-102::obj-10" : [ "modulation_sequencer[3]", "multislider", 0 ],
+			"obj-102::obj-120" : [ "mod_source_time_ms[3]", "number[1]", 0 ],
+			"obj-102::obj-15" : [ "sequencer_multiplier[3]", "sequencer_multiplier", 0 ],
+			"obj-102::obj-18" : [ "mod_soure_mod_amt[3]", "number[2]", 0 ],
+			"obj-102::obj-19" : [ "mod_source_mod_type[3]", "umenu", 0 ],
+			"obj-102::obj-8" : [ "mod_source_time_ticks[3]", "number", 0 ],
+			"obj-106::obj-176" : [ "quantize_record_enable", "quantize_record_enable", 0 ],
+			"obj-106::obj-32" : [ "quantize_record_display", "quantize_record_display", 0 ],
+			"obj-106::obj-83" : [ "quantize_record_blink", "quantize_record_blink", 0 ],
+			"obj-120" : [ "OVERLAP", "number[2]", 0 ],
+			"obj-138" : [ "write_media", "live.text", 0 ],
+			"obj-140" : [ "delete_slice", "live.text[1]", 0 ],
+			"obj-142" : [ "pitch_bias", "number[4]", 0 ],
+			"obj-15" : [ "reverse", "live.text[2]", 0 ],
+			"obj-169" : [ "media_selection", "umenu", 0 ],
+			"obj-172" : [ "slice_sequencer_edut", "live.text[5]", 0 ],
+			"obj-174::obj-16" : [ "slice_sequencer_steps", "number", 0 ],
+			"obj-174::obj-30" : [ "slice_sequencer_step_size", "live.tab", 0 ],
+			"obj-174::obj-4" : [ "slice_sequencer", "live.grid", 0 ],
+			"obj-186" : [ "slice_sequencer_run", "live.text[7]", 0 ],
+			"obj-203" : [ "link_enable", "live.text[8]", 0 ],
+			"obj-206" : [ "import_media[2]", "live.text", 0 ],
+			"obj-214" : [ "import_media", "live.text", 0 ],
+			"obj-255" : [ "pitch_sequencer_run", "live.text[7]", 0 ],
+			"obj-256" : [ "slice_onset_mode", "live.text", 0 ],
+			"obj-266" : [ "slice_window_shape", "live.tab", 0 ],
+			"obj-287" : [ "trim", "Gain", 0 ],
+			"obj-309" : [ "edit_effects", "live.text[5]", 0 ],
+			"obj-316::obj-16" : [ "pitch_sequencer_steps", "number", 0 ],
+			"obj-316::obj-161" : [ "slice_vib_rate", "Freq", 0 ],
+			"obj-316::obj-166" : [ "slice_vib_deviation", "Freq", 0 ],
+			"obj-316::obj-167" : [ "slice_vib_amt", "Amount", 0 ],
+			"obj-316::obj-170" : [ "random_transpose_prob", "Amount", 0 ],
+			"obj-316::obj-183" : [ "intervallic_pitch_set", "multislider", 0 ],
+			"obj-316::obj-25" : [ "pitch_sequencer", "live.grid", 0 ],
+			"obj-316::obj-30" : [ "pitch_sequencer_step_size", "live.tab", 0 ],
+			"obj-321" : [ "pitch_mod_edit", "live.text[5]", 0 ],
+			"obj-46" : [ "SLICE", "number[3]", 0 ],
+			"obj-57" : [ "start_over", "live.text", 0 ],
+			"obj-60::obj-1" : [ "te_effects_tremolo_enable", "power", 0 ],
+			"obj-60::obj-10" : [ "te_effects_tremolo_wave", "Shape", 0 ],
+			"obj-60::obj-101" : [ "te_effects_lpf_resync", "Re-Trigger", 0 ],
+			"obj-60::obj-102" : [ "te_effects_lpf_lfo_shape", "Shape", 0 ],
+			"obj-60::obj-107" : [ "te_effects_lpf_lfo_time_mode", "Time Mode", 1 ],
+			"obj-60::obj-109" : [ "te_effects_lpf_rate_hz", "Rate", 0 ],
+			"obj-60::obj-13" : [ "te_effects_tremolo_phase_invert", "Phase-Inversion", 1 ],
+			"obj-60::obj-14" : [ "te_effects_tremolo_LFO_phase", "Phase", 0 ],
+			"obj-60::obj-144" : [ "te_effects_lpf_LFO_phase", "Phase", 0 ],
+			"obj-60::obj-17" : [ "te_effects_tremolo_lfo_time_mode", "Time Mode", 1 ],
+			"obj-60::obj-18" : [ "te_effects_tremolo_rate_hz", "Rate", 0 ],
+			"obj-60::obj-28" : [ "te_effects_lpf_res", "Res", 0 ],
+			"obj-60::obj-29" : [ "te_effects_hpf_freq", "Freq", 0 ],
+			"obj-60::obj-3" : [ "te_effects_reverb_regen", "Regen", 0 ],
+			"obj-60::obj-31" : [ "te_effects_hpf_enable", "power", 0 ],
+			"obj-60::obj-4" : [ "te_effects_lpf_offset", "Offset", 0 ],
+			"obj-60::obj-460" : [ "te_effects_reverb_time", "Time", 0 ],
+			"obj-60::obj-462" : [ "te_effects_reverb_tail", "Tail", 0 ],
+			"obj-60::obj-463" : [ "te_effects_reverb_early", "Early", 0 ],
+			"obj-60::obj-466" : [ "te_effects_reverb_damp", "Damp", 0 ],
+			"obj-60::obj-47" : [ "te_effects_tremolo_mix", "Mix", 0 ],
+			"obj-60::obj-482" : [ "te_effects_reverb_size", "Size", 0 ],
+			"obj-60::obj-491" : [ "te_effects_reverb_enable", "power", 0 ],
+			"obj-60::obj-495" : [ "te_effects_reverb_mix", "Mix", 0 ],
+			"obj-60::obj-54" : [ "te_effects_lpf_LFOamt", "LFO Amt", 0 ],
+			"obj-60::obj-55" : [ "te_effects_lpf_enable", "power", 0 ],
+			"obj-60::obj-599" : [ "te_effects_sync_delay_lpf", "LPF", 0 ],
+			"obj-60::obj-600" : [ "te_effects_sync_delay_hpf", "HPF", 0 ],
+			"obj-60::obj-601" : [ "te_effects_sync_delay_feedback", "Feedback", 0 ],
+			"obj-60::obj-630" : [ "te_effects_sync_delay_mix", "Mix", 0 ],
+			"obj-60::obj-643" : [ "te_effects_sync_delay_enable", "power", 0 ],
+			"obj-60::obj-74" : [ "te_effects_lpf_rate_sync", "Rate", 0 ],
+			"obj-60::obj-8" : [ "te_effects_tremolo_retrigger", "Re-Trigger", 0 ],
+			"obj-60::obj-81" : [ "te_effects_lpf_phase_invert", "Phase-Inversion", 1 ],
+			"obj-60::obj-9" : [ "te_effects_tremolo_rate_sync", "Rate", 0 ],
+			"obj-60::obj-957" : [ "te_effects_sync_delay_rate_hide", "duration.l", 0 ],
+			"obj-60::obj-96" : [ "te_effects_sync_delay_rate", "delay_left", 0 ],
+			"obj-75" : [ "refresh_media_menu", "refresh", 0 ],
+			"obj-79" : [ "DURATION", "number[1]", 0 ],
+			"obj-82" : [ "POSITION", "number", 0 ],
+			"obj-99::obj-10" : [ "modulation_sequencer", "multislider", 0 ],
+			"obj-99::obj-120" : [ "mod_source_time_ms", "number[1]", 0 ],
+			"obj-99::obj-15" : [ "sequencer_multiplier", "sequencer_multiplier", 0 ],
+			"obj-99::obj-18" : [ "mod_soure_mod_amt", "number[2]", 0 ],
+			"obj-99::obj-19" : [ "mod_source_mod_type", "umenu", 0 ],
+			"obj-99::obj-8" : [ "mod_source_time_ticks", "number", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "setup_after_import.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "get_length.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "te_effects.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "enable_effect.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "modsource.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "quantize_record.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
