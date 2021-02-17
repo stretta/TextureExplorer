@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 164.0, 98.0, 1005.0, 730.0 ],
+		"rect" : [ 55.0, 79.0, 1005.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -255,7 +255,7 @@
 					"patching_rect" : [ 972.000015020370483, 1723.900022983551025, 165.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 900.081378923510329, 818.819851736173632, 96.19999897480011, 35.0 ],
-					"text" : "4",
+					"text" : "1",
 					"textcolor" : [ 0.545098039215686, 0.545098039215686, 0.545098039215686, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1330,7 +1330,7 @@
 					"presentation_rect" : [ 939.292852078669512, 670.450042426586151, 18.0, 130.0 ],
 					"shape" : 2,
 					"size" : 8,
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -3759,9 +3759,11 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3772,10 +3774,8 @@
 										"autogradient" : 0
 									}
 ,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ]
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3784,9 +3784,9 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3795,8 +3795,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3819,9 +3819,9 @@
 , 							{
 								"name" : "Teaching",
 								"default" : 								{
-									"fontface" : [ 0 ],
 									"fontsize" : [ 18.0 ],
-									"elementcolor" : [ 0.375889, 0.380647, 0.363084, 1.0 ]
+									"elementcolor" : [ 0.375889, 0.380647, 0.363084, 1.0 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3830,9 +3830,13 @@
 , 							{
 								"name" : "Transparent",
 								"default" : 								{
-									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.35 ],
+									"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"textjustification" : [ 1 ],
+									"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Rubik" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.904179, 0.895477, 0.842975, 0.74 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3843,12 +3847,8 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textjustification" : [ 1 ],
-									"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Rubik" ]
+									"color" : [ 0.904179, 0.895477, 0.842975, 0.74 ],
+									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.35 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3857,9 +3857,11 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
+									"fontsize" : [ 18.0 ],
+									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3870,10 +3872,8 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 18.0 ],
-									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-									"fontname" : [ "HydrogenType" ]
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3882,12 +3882,12 @@
 , 							{
 								"name" : "a.ke",
 								"default" : 								{
-									"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
-									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"fontface" : [ 0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"fontname" : [ "Andale Mono" ]
+									"fontname" : [ "Andale Mono" ],
+									"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
+									"fontface" : [ 0 ],
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3896,10 +3896,11 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
+									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontname" : [ "Geneva" ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -3909,9 +3910,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontname" : [ "Geneva" ]
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3965,10 +3965,10 @@
 , 							{
 								"name" : "classicKslider",
 								"default" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3977,8 +3977,8 @@
 , 							{
 								"name" : "classicLed",
 								"default" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3996,8 +3996,8 @@
 , 							{
 								"name" : "classicMeter~",
 								"default" : 								{
-									"bgcolor" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"bgcolor" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4006,9 +4006,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
 									"fontsize" : [ 9.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4053,8 +4053,8 @@
 , 							{
 								"name" : "classicScope~",
 								"default" : 								{
-									"bgcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"color" : [ 0.462745, 0.933333, 0.0, 1.0 ]
+									"color" : [ 0.462745, 0.933333, 0.0, 1.0 ],
+									"bgcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4063,8 +4063,8 @@
 , 							{
 								"name" : "classicTab",
 								"default" : 								{
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+									"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4073,8 +4073,8 @@
 , 							{
 								"name" : "classicTextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4083,8 +4083,8 @@
 , 							{
 								"name" : "classicToggle",
 								"default" : 								{
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
+									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4102,8 +4102,8 @@
 , 							{
 								"name" : "classicWaveform~",
 								"default" : 								{
-									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
+									"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4112,6 +4112,8 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4121,9 +4123,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -4132,10 +4132,11 @@
 , 							{
 								"name" : "irv",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4146,9 +4147,8 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 10.0 ],
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4162,6 +4162,8 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
+									"fontsize" : [ 9.5 ],
+									"fontname" : [ "Ableton Sans Book" ],
 									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -4172,9 +4174,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.5 ],
-									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-									"fontname" : [ "Ableton Sans Book" ]
+									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4183,9 +4183,11 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -4196,10 +4198,8 @@
 										"autogradient" : 0
 									}
 ,
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ]
 								}
 ,
@@ -4218,8 +4218,8 @@
 , 							{
 								"name" : "lightbutton",
 								"default" : 								{
-									"bgcolor" : [ 0.309495, 0.299387, 0.299789, 1.0 ],
-									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+									"bgcolor" : [ 0.309495, 0.299387, 0.299789, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4320,8 +4320,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4339,8 +4339,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4358,8 +4358,8 @@
 , 							{
 								"name" : "sliderGold-1",
 								"default" : 								{
-									"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4368,9 +4368,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4388,8 +4388,8 @@
 , 							{
 								"name" : "tastefulltoggle",
 								"default" : 								{
-									"bgcolor" : [ 0.185512, 0.263736, 0.260626, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+									"bgcolor" : [ 0.185512, 0.263736, 0.260626, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4398,9 +4398,9 @@
 , 							{
 								"name" : "tastefultoggle",
 								"default" : 								{
-									"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
+									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-									"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+									"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4409,8 +4409,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4419,8 +4419,8 @@
 , 							{
 								"name" : "texteditGold",
 								"default" : 								{
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4429,11 +4429,11 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"fontsize" : [ 36.0 ],
-									"fontname" : [ "Dirty Ego" ]
+									"fontname" : [ "Dirty Ego" ],
+									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
+									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9694,9 +9694,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9705,9 +9705,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9716,6 +9716,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -9725,9 +9727,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -11696,9 +11696,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11707,9 +11707,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11718,6 +11718,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11727,9 +11729,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -13548,8 +13548,8 @@
 , 															{
 																"name" : "rsliderGold",
 																"default" : 																{
-																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -13558,8 +13558,8 @@
 , 															{
 																"name" : "sliderGold-1",
 																"default" : 																{
-																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -16555,8 +16555,8 @@
 , 															{
 																"name" : "rsliderGold",
 																"default" : 																{
-																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -16565,8 +16565,8 @@
 , 															{
 																"name" : "sliderGold-1",
 																"default" : 																{
-																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -20699,8 +20699,8 @@
 , 																			{
 																				"name" : "rsliderGold",
 																				"default" : 																				{
-																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -20709,8 +20709,8 @@
 , 																			{
 																				"name" : "sliderGold-1",
 																				"default" : 																				{
-																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -21744,8 +21744,8 @@
 , 																			{
 																				"name" : "rsliderGold",
 																				"default" : 																				{
-																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -21754,8 +21754,8 @@
 , 																			{
 																				"name" : "sliderGold-1",
 																				"default" : 																				{
-																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -22246,8 +22246,8 @@
 , 																			{
 																				"name" : "rsliderGold",
 																				"default" : 																				{
-																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -22256,8 +22256,8 @@
 , 																			{
 																				"name" : "sliderGold-1",
 																				"default" : 																				{
-																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -22897,7 +22897,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-66",
-																	"linecount" : 2,
+																	"linecount" : 3,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -25114,8 +25114,8 @@
 , 															{
 																"name" : "rsliderGold",
 																"default" : 																{
-																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -25124,8 +25124,8 @@
 , 															{
 																"name" : "sliderGold-1",
 																"default" : 																{
-																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -26516,8 +26516,8 @@
 , 																			{
 																				"name" : "rsliderGold",
 																				"default" : 																				{
-																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -26526,8 +26526,8 @@
 , 																			{
 																				"name" : "sliderGold-1",
 																				"default" : 																				{
-																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -29079,8 +29079,8 @@
 , 																			{
 																				"name" : "rsliderGold",
 																				"default" : 																				{
-																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -29089,8 +29089,8 @@
 , 																			{
 																				"name" : "sliderGold-1",
 																				"default" : 																				{
-																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -30245,8 +30245,8 @@
 , 																			{
 																				"name" : "rsliderGold",
 																				"default" : 																				{
-																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -30255,8 +30255,8 @@
 , 																			{
 																				"name" : "sliderGold-1",
 																				"default" : 																				{
-																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -31757,8 +31757,8 @@
 , 															{
 																"name" : "rsliderGold",
 																"default" : 																{
-																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+																	"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+																	"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -31767,8 +31767,8 @@
 , 															{
 																"name" : "sliderGold-1",
 																"default" : 																{
-																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+																	"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+																	"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -32316,8 +32316,8 @@
 , 											{
 												"name" : "rsliderGold",
 												"default" : 												{
-													"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-													"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+													"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+													"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -32326,8 +32326,8 @@
 , 											{
 												"name" : "sliderGold-1",
 												"default" : 												{
-													"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-													"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+													"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+													"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -33292,9 +33292,9 @@
 										"styles" : [ 											{
 												"name" : "Teaching",
 												"default" : 												{
-													"fontface" : [ 0 ],
 													"fontsize" : [ 18.0 ],
-													"elementcolor" : [ 0.375889, 0.380647, 0.363084, 1.0 ]
+													"elementcolor" : [ 0.375889, 0.380647, 0.363084, 1.0 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -33690,8 +33690,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -33700,8 +33700,8 @@
 , 							{
 								"name" : "sliderGold-1",
 								"default" : 								{
-									"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34173,9 +34173,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34184,9 +34184,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34195,6 +34195,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -34204,9 +34206,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -34695,9 +34695,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34706,9 +34706,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34717,6 +34717,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -34726,9 +34728,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -35466,6 +35466,7 @@
 					"patching_rect" : [ 58.0, 211.425864639655629, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.926174675219499, 3.925864639655629, 708.0, 605.0 ],
+					"varname" : "player_voice[1]",
 					"viewvisibility" : 1
 				}
 
@@ -35488,6 +35489,7 @@
 					"patching_rect" : [ 89.0, 352.425864639655629, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.5, 3.925864639655629, 708.0, 605.0 ],
+					"varname" : "player_voice",
 					"viewvisibility" : 1
 				}
 
@@ -37366,12 +37368,12 @@
 			"obj-32::obj-106::obj-176" : [ "quantize_record_enable[2]", "quantize_record_enable", 0 ],
 			"obj-32::obj-106::obj-32" : [ "quantize_record_display[2]", "quantize_record_display", 0 ],
 			"obj-32::obj-106::obj-83" : [ "quantize_record_blink[2]", "quantize_record_blink", 0 ],
+			"obj-32::obj-115" : [ "0_media_database[1]", "0_media_database", 0 ],
 			"obj-32::obj-120" : [ "OVERLAP[1]", "number[2]", 0 ],
 			"obj-32::obj-138" : [ "write_media[1]", "live.text", 0 ],
 			"obj-32::obj-140" : [ "delete_slice[1]", "live.text[1]", 0 ],
 			"obj-32::obj-142" : [ "pitch_bias[1]", "number[4]", 0 ],
 			"obj-32::obj-15" : [ "reverse[1]", "live.text[2]", 0 ],
-			"obj-32::obj-169" : [ "media_selection[1]", "umenu", 0 ],
 			"obj-32::obj-172" : [ "slice_sequencer_edut[1]", "live.text[5]", 0 ],
 			"obj-32::obj-174::obj-16" : [ "slice_sequencer_steps[1]", "number", 0 ],
 			"obj-32::obj-174::obj-30" : [ "slice_sequencer_step_size[1]", "live.tab", 0 ],
@@ -37436,6 +37438,7 @@
 			"obj-32::obj-75" : [ "refresh_media_menu[1]", "refresh", 0 ],
 			"obj-32::obj-79" : [ "DURATION[1]", "number[1]", 0 ],
 			"obj-32::obj-82" : [ "POSITION[1]", "number", 0 ],
+			"obj-32::obj-97" : [ "0_media_audio[1]", "0_media_audio", 0 ],
 			"obj-32::obj-99::obj-10" : [ "modulation_sequencer[7]", "multislider", 0 ],
 			"obj-32::obj-99::obj-120" : [ "mod_source_time_ms[4]", "number[1]", 0 ],
 			"obj-32::obj-99::obj-15" : [ "umenu[8]", "sequencer_multiplier", 0 ],
@@ -37466,12 +37469,12 @@
 			"obj-4::obj-106::obj-176" : [ "quantize_record_enable[1]", "quantize_record_enable", 0 ],
 			"obj-4::obj-106::obj-32" : [ "quantize_record_display[1]", "quantize_record_display", 0 ],
 			"obj-4::obj-106::obj-83" : [ "quantize_record_blink[1]", "quantize_record_blink", 0 ],
+			"obj-4::obj-115" : [ "0_media_database", "0_media_database", 0 ],
 			"obj-4::obj-120" : [ "OVERLAP", "number[2]", 0 ],
 			"obj-4::obj-138" : [ "write_media", "live.text", 0 ],
 			"obj-4::obj-140" : [ "delete_slice", "live.text[1]", 0 ],
 			"obj-4::obj-142" : [ "pitch_bias", "number[4]", 0 ],
 			"obj-4::obj-15" : [ "reverse", "live.text[2]", 0 ],
-			"obj-4::obj-169" : [ "media_selection", "umenu", 0 ],
 			"obj-4::obj-172" : [ "slice_sequencer_edut", "live.text[5]", 0 ],
 			"obj-4::obj-174::obj-16" : [ "slice_sequencer_steps", "number", 0 ],
 			"obj-4::obj-174::obj-30" : [ "slice_sequencer_step_size", "live.tab", 0 ],
@@ -37536,6 +37539,7 @@
 			"obj-4::obj-75" : [ "refresh_media_menu", "refresh", 0 ],
 			"obj-4::obj-79" : [ "DURATION", "number[1]", 0 ],
 			"obj-4::obj-82" : [ "POSITION", "number", 0 ],
+			"obj-4::obj-97" : [ "0_media_audio", "0_media_audio", 0 ],
 			"obj-4::obj-99::obj-10" : [ "modulation_sequencer[3]", "multislider", 0 ],
 			"obj-4::obj-99::obj-120" : [ "mod_source_time_ms", "number[1]", 0 ],
 			"obj-4::obj-99::obj-15" : [ "umenu[4]", "sequencer_multiplier", 0 ],
@@ -37813,12 +37817,6 @@
 					"parameter_longname" : "reverse[1]"
 				}
 ,
-				"obj-32::obj-169" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
-				}
-,
 				"obj-32::obj-172" : 				{
 					"parameter_longname" : "slice_sequencer_edut[1]"
 				}
@@ -38055,6 +38053,12 @@
 					"parameter_longname" : "quantize_record_blink[1]"
 				}
 ,
+				"obj-4::obj-115" : 				{
+					"parameter_invisible" : 1,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
 				"obj-4::obj-138" : 				{
 					"parameter_longname" : "write_media"
 				}
@@ -38065,12 +38069,6 @@
 ,
 				"obj-4::obj-15" : 				{
 					"parameter_longname" : "reverse"
-				}
-,
-				"obj-4::obj-169" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-4::obj-172" : 				{
@@ -38094,6 +38092,7 @@
 				}
 ,
 				"obj-4::obj-214" : 				{
+					"parameter_invisible" : 2,
 					"parameter_longname" : "import_media"
 				}
 ,
@@ -38127,6 +38126,12 @@
 ,
 				"obj-4::obj-75" : 				{
 					"parameter_longname" : "refresh_media_menu"
+				}
+,
+				"obj-4::obj-97" : 				{
+					"parameter_invisible" : 1,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-5::obj-6::obj-37::obj-1" : 				{
@@ -38671,6 +38676,76 @@
 					"max" : 1.0,
 					"flags" : 2
 				}
+,
+				"POSITION" : 				{
+					"srcname" : "14.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 0.999999,
+					"flags" : 2
+				}
+,
+				"DURATION" : 				{
+					"srcname" : "15.ctrl.0.chan.midi",
+					"min" : 0.00001,
+					"max" : 1.0,
+					"flags" : 2
+				}
+,
+				"OVERLAP" : 				{
+					"srcname" : "16.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 2.0,
+					"flags" : 2
+				}
+,
+				"SLICE" : 				{
+					"srcname" : "17.ctrl.0.chan.midi",
+					"min" : 1.0,
+					"max" : 12.0,
+					"flags" : 2
+				}
+,
+				"DURATION[1]" : 				{
+					"srcname" : "19.ctrl.0.chan.midi",
+					"min" : 0.00001,
+					"max" : 1.0,
+					"flags" : 2
+				}
+,
+				"OVERLAP[1]" : 				{
+					"srcname" : "20.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 2.0,
+					"flags" : 2
+				}
+,
+				"SLICE[1]" : 				{
+					"srcname" : "21.ctrl.0.chan.midi",
+					"min" : 1.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"POSITION[1]" : 				{
+					"srcname" : "18.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 0.999999,
+					"flags" : 2
+				}
+,
+				"output_level[5]" : 				{
+					"srcname" : "2.ctrl.0.chan.midi",
+					"min" : -70.0,
+					"max" : 30.0,
+					"flags" : 2
+				}
+,
+				"output_level[4]" : 				{
+					"srcname" : "3.ctrl.0.chan.midi",
+					"min" : -70.0,
+					"max" : 30.0,
+					"flags" : 2
+				}
 
 			}
 
@@ -38768,7 +38843,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Piano Chords.txt",
+				"name" : "Orff.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
@@ -38814,13 +38889,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Piano Phrases.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -38886,90 +38954,90 @@
 			"snapshot" : 			{
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"DURATION" : 0.302,
-						"DURATION[1]" : 0.0627,
-						"POSITION" : 0.21,
-						"POSITION[1]" : 0.3084,
-						"SLICE" : 8.0,
+						"DURATION" : 1.0,
+						"DURATION[1]" : 1.0,
+						"POSITION" : 0.0,
+						"POSITION[1]" : 0.0,
+						"SLICE" : 16.0,
 						"SLICE[1]" : 1.0,
-						"amp_env[12]" : 10.0,
-						"amp_env[13]" : 6.0,
-						"amp_env[14]" : 5.0,
-						"amp_env[15]" : 9.0,
+						"amp_env[12]" : 7.0,
+						"amp_env[13]" : 1.0,
+						"amp_env[14]" : 0.0,
+						"amp_env[15]" : 3.0,
 						"clock_output_enable" : 0.0,
 						"delete_slice" : 0.0,
 						"delete_slice[1]" : 0.0,
-						"fm_env[12]" : 9.0,
+						"fm_env[12]" : 13.0,
 						"fm_env[16]" : 7.0,
 						"fm_env[17]" : 7.0,
-						"fm_env[18]" : 13.0,
-						"fm_env[19]" : 7.0,
-						"fm_env[20]" : 2.0,
+						"fm_env[18]" : 10.0,
+						"fm_env[19]" : 9.0,
+						"fm_env[20]" : 12.0,
 						"global_quantize_level" : 13.0,
-						"hm_amp_env" : 12.0,
-						"hm_amp_env[10]" : 9.0,
-						"hm_amp_env[11]" : 13.0,
-						"hm_amp_env[1]" : 5.0,
-						"hm_amp_env[2]" : 8.0,
-						"hm_amp_env[3]" : 13.0,
-						"hm_amp_env[4]" : 7.0,
-						"hm_amp_env[5]" : 12.0,
-						"hm_amp_env[6]" : 12.0,
-						"hm_amp_env[7]" : 0.0,
-						"hm_amp_env[8]" : 3.0,
-						"hm_amp_env[9]" : 1.0,
+						"hm_amp_env" : 1.0,
+						"hm_amp_env[10]" : 5.0,
+						"hm_amp_env[11]" : 4.0,
+						"hm_amp_env[1]" : 0.0,
+						"hm_amp_env[2]" : 0.0,
+						"hm_amp_env[3]" : 2.0,
+						"hm_amp_env[4]" : 4.0,
+						"hm_amp_env[5]" : 10.0,
+						"hm_amp_env[6]" : 8.0,
+						"hm_amp_env[7]" : 1.0,
+						"hm_amp_env[8]" : 5.0,
+						"hm_amp_env[9]" : 10.0,
 						"hm_enable" : 0.0,
-						"hm_enable[10]" : 0.0,
-						"hm_enable[11]" : 1.0,
-						"hm_enable[1]" : 0.0,
+						"hm_enable[10]" : 1.0,
+						"hm_enable[11]" : 0.0,
+						"hm_enable[1]" : 1.0,
 						"hm_enable[2]" : 0.0,
-						"hm_enable[3]" : 0.0,
+						"hm_enable[3]" : 1.0,
 						"hm_enable[4]" : 0.0,
-						"hm_enable[5]" : 0.0,
-						"hm_enable[6]" : 0.0,
+						"hm_enable[5]" : 1.0,
+						"hm_enable[6]" : 1.0,
 						"hm_enable[7]" : 1.0,
 						"hm_enable[8]" : 1.0,
 						"hm_enable[9]" : 1.0,
-						"hm_fm_env" : 3.0,
-						"hm_fm_env[10]" : 10.0,
-						"hm_fm_env[11]" : 12.0,
-						"hm_fm_env[1]" : 9.0,
-						"hm_fm_env[2]" : 13.0,
-						"hm_fm_env[3]" : 7.0,
-						"hm_fm_env[4]" : 1.0,
-						"hm_fm_env[5]" : 7.0,
-						"hm_fm_env[6]" : 7.0,
-						"hm_fm_env[7]" : 10.0,
-						"hm_fm_env[8]" : 6.0,
-						"hm_fm_env[9]" : 11.0,
+						"hm_fm_env" : 5.0,
+						"hm_fm_env[10]" : 9.0,
+						"hm_fm_env[11]" : 9.0,
+						"hm_fm_env[1]" : 8.0,
+						"hm_fm_env[2]" : 5.0,
+						"hm_fm_env[3]" : 3.0,
+						"hm_fm_env[4]" : 12.0,
+						"hm_fm_env[5]" : 12.0,
+						"hm_fm_env[6]" : 13.0,
+						"hm_fm_env[7]" : 4.0,
+						"hm_fm_env[8]" : 7.0,
+						"hm_fm_env[9]" : 4.0,
 						"hm_generate[4]" : 0.0,
 						"hm_global_transpose" : 0.0,
-						"hm_pitch" : 60.0,
-						"hm_pitch[10]" : 61.0,
+						"hm_pitch" : 59.0,
+						"hm_pitch[10]" : 60.0,
 						"hm_pitch[11]" : 59.0,
-						"hm_pitch[1]" : 64.0,
-						"hm_pitch[2]" : 60.0,
-						"hm_pitch[3]" : 59.0,
-						"hm_pitch[4]" : 62.0,
-						"hm_pitch[5]" : 55.0,
-						"hm_pitch[6]" : 58.0,
-						"hm_pitch[7]" : 61.0,
-						"hm_pitch[8]" : 57.0,
-						"hm_pitch[9]" : 59.0,
-						"hm_ratio" : 11.437255859375,
-						"hm_ratio[10]" : 4.062746047973633,
-						"hm_ratio[11]" : 11.350979804992676,
-						"hm_ratio[1]" : 3.080392122268677,
-						"hm_ratio[2]" : 11.150979042053223,
-						"hm_ratio[3]" : 0.300000011920929,
-						"hm_ratio[4]" : 3.207843542098999,
-						"hm_ratio[5]" : 10.69411563873291,
-						"hm_ratio[6]" : 10.066664695739746,
-						"hm_ratio[7]" : 10.566666603088379,
-						"hm_ratio[8]" : 5.290196418762207,
+						"hm_pitch[1]" : 61.0,
+						"hm_pitch[2]" : 61.0,
+						"hm_pitch[3]" : 60.0,
+						"hm_pitch[4]" : 59.0,
+						"hm_pitch[5]" : 59.0,
+						"hm_pitch[6]" : 60.0,
+						"hm_pitch[7]" : 60.0,
+						"hm_pitch[8]" : 59.0,
+						"hm_pitch[9]" : 61.0,
+						"hm_ratio" : 11.237255096435547,
+						"hm_ratio[10]" : 4.462745666503906,
+						"hm_ratio[11]" : 11.650980949401855,
+						"hm_ratio[1]" : 3.380391836166382,
+						"hm_ratio[2]" : 11.450980186462402,
+						"hm_ratio[3]" : 0.100000016391277,
+						"hm_ratio[4]" : 3.607843160629272,
+						"hm_ratio[5]" : 10.794116020202637,
+						"hm_ratio[6]" : 10.266665458679199,
+						"hm_ratio[7]" : 10.366665840148926,
+						"hm_ratio[8]" : 5.390196323394775,
 						"hm_ratio[9]" : 1.668627500534058,
-						"import_media" : 0.0,
 						"import_media[1]" : 0.0,
+						"import_media[2]" : 0.0,
 						"link_enable" : 1.0,
 						"link_enable[1]" : 1.0,
 						"live.numbox[41]" : 1.0,
@@ -38977,30 +39045,30 @@
 						"live.text[137]" : 1.0,
 						"live.text[21]" : 0.0,
 						"live.text[22]" : 1.0,
-						"live.text[50]" : 0.0,
+						"live.text[50]" : 1.0,
 						"live.text[51]" : 1.0,
 						"live.text[57]" : 0.0,
 						"live.text[58]" : 0.0,
 						"live.text[77]" : 0.0,
 						"live.text[78]" : 0.0,
-						"media_selection" : 12.0,
-						"media_selection[1]" : 10.0,
+						"media_selection" : 9.0,
+						"media_selection[1]" : 9.0,
 						"pitch[12]" : 60.0,
 						"pitch[16]" : 60.0,
 						"pitch[17]" : 60.0,
-						"pitch[18]" : 63.0,
-						"pitch[19]" : 59.0,
+						"pitch[18]" : 59.0,
+						"pitch[19]" : 61.0,
 						"pitch_sequencer_run" : 0.0,
 						"pitch_sequencer_run[1]" : 0.0,
 						"pitch_sequencer_step_size" : 0.0,
 						"pitch_sequencer_step_size[1]" : 0.0,
 						"random_transpose_prob" : 0.0,
 						"random_transpose_prob[1]" : 0.0,
-						"ratio[12]" : 12.050982475280762,
-						"ratio[13]" : 11.850981712341309,
+						"ratio[12]" : 11.650980949401855,
+						"ratio[13]" : 12.050982475280762,
 						"ratio[14]" : 5.005882263183594,
-						"ratio[15]" : 10.082353591918945,
-						"reverse" : 1.0,
+						"ratio[15]" : 9.782352447509766,
+						"reverse" : 0.0,
 						"reverse[1]" : 0.0,
 						"slice_onset_mode" : 0.0,
 						"slice_onset_mode[1]" : 0.0,
@@ -39018,11 +39086,11 @@
 						"slice_vib_deviation[1]" : 21.486364245932428,
 						"slice_vib_rate" : 29.874409141619282,
 						"slice_vib_rate[1]" : 29.874409141619282,
-						"slice_window_shape" : 1.0,
-						"slice_window_shape[1]" : 1.0,
-						"te_effects_hpf_enable" : 1.0,
+						"slice_window_shape" : 0.0,
+						"slice_window_shape[1]" : 0.0,
+						"te_effects_hpf_enable" : 0.0,
 						"te_effects_hpf_enable[1]" : 0.0,
-						"te_effects_hpf_freq" : 3136.639120693456334,
+						"te_effects_hpf_freq" : 2349.237545890302044,
 						"te_effects_hpf_freq[1]" : 2349.237545890302044,
 						"te_effects_lpf_LFO_phase" : 0.0,
 						"te_effects_lpf_LFO_phase[1]" : 0.0,
@@ -39044,9 +39112,9 @@
 						"te_effects_reverb_damp[1]" : 0.7,
 						"te_effects_reverb_early" : 0.25,
 						"te_effects_reverb_early[1]" : 0.25,
-						"te_effects_reverb_enable" : 1.0,
+						"te_effects_reverb_enable" : 0.0,
 						"te_effects_reverb_enable[1]" : 1.0,
-						"te_effects_reverb_mix" : 26.377952755905522,
+						"te_effects_reverb_mix" : 50.0,
 						"te_effects_reverb_mix[1]" : 59.842519685039427,
 						"te_effects_reverb_regen" : 0.5,
 						"te_effects_reverb_regen[1]" : 0.5,
@@ -39079,38 +39147,40 @@
 						"te_effects_tremolo_wave" : 0.0,
 						"te_effects_tremolo_wave[1]" : 0.0,
 						"tempo" : 80.0,
-						"trim" : 0.0,
-						"trim[1]" : 0.0,
+						"trim" : 13.385826771653512,
+						"trim[1]" : 18.110236220472402,
 						"umenu[1]" : 0.0,
 						"umenu[2]" : 0.0,
-						"umenu[3]" : 3.0,
+						"umenu[3]" : 0.0,
 						"umenu[4]" : 0.0,
 						"umenu[5]" : 0.0,
 						"umenu[6]" : 0.0,
 						"umenu[7]" : 0.0,
 						"umenu[8]" : 0.0,
-						"write_media" : 0.0,
-						"write_media[1]" : 0.0,
 						"te_effects_lpf_lfo_time_mode" : 1.0,
 						"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 						"te_effects_tremolo_lfo_time_mode" : 1.0,
 						"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 						"blob" : 						{
+							"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.wav" ],
+							"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.wav" ],
+							"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.txt" ],
+							"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.txt" ],
 							"FM_amt[12]" : [ 15.0 ],
 							"FM_amt[13]" : [ 98.0 ],
 							"FM_amt[14]" : [ 78.0 ],
 							"FM_amt[15]" : [ 100.0 ],
-							"OVERLAP" : [ 0.145 ],
+							"OVERLAP" : [ 0.74 ],
 							"OVERLAP[1]" : [ 0.34 ],
 							"amp_amt[12]" : [ 80.0 ],
 							"amp_amt[13]" : [ 80.0 ],
 							"amp_amt[14]" : [ 80.0 ],
 							"amp_amt[15]" : [ 80.0 ],
 							"duration[16]" : [ "16n" ],
-							"duration[17]" : [ "64n" ],
-							"duration[18]" : [ "1n" ],
-							"duration[19]" : [ "8n" ],
-							"duration[20]" : [ "32nd" ],
+							"duration[17]" : [ "1nt" ],
+							"duration[18]" : [ "16n" ],
+							"duration[19]" : [ "16n" ],
+							"duration[20]" : [ "64n" ],
 							"hm_FM_amt" : [ 25.0 ],
 							"hm_FM_amt[10]" : [ 23.0 ],
 							"hm_FM_amt[11]" : [ 70.0 ],
@@ -39135,36 +39205,36 @@
 							"hm_amp_amt[7]" : [ 80.0 ],
 							"hm_amp_amt[8]" : [ 80.0 ],
 							"hm_amp_amt[9]" : [ 80.0 ],
-							"hm_duration" : [ "16n" ],
-							"hm_duration[10]" : [ "8n" ],
-							"hm_duration[11]" : [ "32nd" ],
-							"hm_duration[1]" : [ "64n" ],
-							"hm_duration[2]" : [ "16n" ],
+							"hm_duration" : [ "8n" ],
+							"hm_duration[10]" : [ "16n" ],
+							"hm_duration[11]" : [ "4n" ],
+							"hm_duration[1]" : [ "4n" ],
+							"hm_duration[2]" : [ "8n" ],
 							"hm_duration[3]" : [ "16n" ],
-							"hm_duration[4]" : [ "8n" ],
-							"hm_duration[5]" : [ "16n" ],
-							"hm_duration[6]" : [ "8n" ],
-							"hm_duration[7]" : [ "16n" ],
-							"hm_duration[8]" : [ "8n" ],
-							"hm_duration[9]" : [ "8n" ],
+							"hm_duration[4]" : [ "16n" ],
+							"hm_duration[5]" : [ "8n" ],
+							"hm_duration[6]" : [ "1n" ],
+							"hm_duration[7]" : [ "8n" ],
+							"hm_duration[8]" : [ "16n" ],
+							"hm_duration[9]" : [ "1n" ],
 							"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 							"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-							"mod_source_mod_type" : [ 1 ],
-							"mod_source_mod_type[1]" : [ 3 ],
-							"mod_source_mod_type[2]" : [ 1 ],
-							"mod_source_mod_type[3]" : [ 0 ],
+							"mod_source_mod_type" : [ 0 ],
+							"mod_source_mod_type[1]" : [ 0 ],
+							"mod_source_mod_type[2]" : [ 0 ],
+							"mod_source_mod_type[3]" : [ 4 ],
 							"mod_source_mod_type[4]" : [ 1 ],
 							"mod_source_mod_type[5]" : [ 0 ],
 							"mod_source_mod_type[6]" : [ 0 ],
-							"mod_source_mod_type[7]" : [ 0 ],
-							"mod_source_time_ms" : [ 6000.0 ],
+							"mod_source_mod_type[7]" : [ 1 ],
+							"mod_source_time_ms" : [ 1000.0 ],
 							"mod_source_time_ms[1]" : [ 1000.0 ],
 							"mod_source_time_ms[2]" : [ 1000.0 ],
 							"mod_source_time_ms[3]" : [ 1000.0 ],
 							"mod_source_time_ms[4]" : [ 10000.0 ],
 							"mod_source_time_ms[5]" : [ 1000.0 ],
 							"mod_source_time_ms[6]" : [ 1000.0 ],
-							"mod_source_time_ms[7]" : [ 1000.0 ],
+							"mod_source_time_ms[7]" : [ 80000.0 ],
 							"mod_source_time_ticks" : [ 1920 ],
 							"mod_source_time_ticks[1]" : [ 1920 ],
 							"mod_source_time_ticks[2]" : [ 1920 ],
@@ -39173,17 +39243,17 @@
 							"mod_source_time_ticks[5]" : [ 1920 ],
 							"mod_source_time_ticks[6]" : [ 1920 ],
 							"mod_source_time_ticks[7]" : [ 1920 ],
-							"mod_soure_mod_amt" : [ 0.119 ],
-							"mod_soure_mod_amt[1]" : [ 0.235 ],
-							"mod_soure_mod_amt[2]" : [ 0.42 ],
-							"mod_soure_mod_amt[3]" : [ 11.940000000000003 ],
-							"mod_soure_mod_amt[4]" : [ 0.5 ],
+							"mod_soure_mod_amt" : [ 0.0 ],
+							"mod_soure_mod_amt[1]" : [ 0.0 ],
+							"mod_soure_mod_amt[2]" : [ 0.0 ],
+							"mod_soure_mod_amt[3]" : [ 16.0 ],
+							"mod_soure_mod_amt[4]" : [ 1.0 ],
 							"mod_soure_mod_amt[5]" : [ 0.0 ],
 							"mod_soure_mod_amt[6]" : [ 0.0 ],
-							"mod_soure_mod_amt[7]" : [ 12.0 ],
+							"mod_soure_mod_amt[7]" : [ 16.0 ],
 							"modulation_sequencer" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"modulation_sequencer[1]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-							"modulation_sequencer[2]" : [ 0.0, 0.0, 0.0, 0.0, 274.99993896484375, 274.99993896484375, 274.99993896484375, 274.99993896484375, 274.99993896484375, 274.99993896484375, 274.99993896484375, 274.99993896484375, 274.99993896484375, 274.99993896484375, 302.7777099609375, 330.55548095703125, 358.333251953125, 358.333251953125, 358.333251953125, 358.333251953125, 399.99993896484375, 441.666595458984375, 469.444366455078125, 497.22216796875, 524.99993896484375, 552.7777099609375, 580.55548095703125, 608.333251953125, 649.99993896484375, 691.6666259765625, 691.6666259765625, 733.333251953125, 774.99993896484375, 774.99993896484375, 858.333251953125, 858.333251953125, 858.333251953125, 941.6666259765625, 941.6666259765625, 941.6666259765625, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 941.6666259765625, 941.6666259765625, 941.6666259765625, 899.99993896484375, 858.333251953125, 858.333251953125, 858.333251953125, 858.333251953125, 858.333251953125, 858.333251953125, 774.99993896484375, 774.99993896484375, 774.99993896484375, 774.99993896484375, 774.99993896484375, 774.99993896484375, 733.333251953125, 691.6666259765625, 691.6666259765625, 691.6666259765625, 608.333251953125, 608.333251953125, 608.333251953125, 608.333251953125, 566.6666259765625, 524.99993896484375, 441.666595458984375, 441.666595458984375, 441.666595458984375, 413.888824462890625, 386.111053466796875, 358.333251953125, 0.0 ],
+							"modulation_sequencer[2]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"modulation_sequencer[3]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"modulation_sequencer[4]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 							"modulation_sequencer[5]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
@@ -39195,8 +39265,8 @@
 							"pitch_sequencer[1]" : [ 2, 8, 25, 0, 8, 12, 1012, 2012, 3012, 4010, 5010, 6005, 7005, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"pitch_sequencer_steps" : [ 8 ],
 							"pitch_sequencer_steps[1]" : [ 8 ],
-							"slice_sequencer" : [ 2, 8, 12, 0, 8, 0, 1001, 2002, 3003, 4004, 5005, 6006, 7007, 2, 2, 2, 2, 2, 2, 2, 2 ],
-							"slice_sequencer[1]" : [ 2, 8, 10, 0, 8, 0, 1001, 2002, 3003, 4004, 5005, 6006, 7007, 2, 2, 2, 2, 2, 2, 2, 2 ],
+							"slice_sequencer" : [ 2, 8, 16, 0, 8, 0, 1001, 2002, 3003, 4004, 5005, 6006, 7007, 2, 2, 2, 2, 2, 2, 2, 2 ],
+							"slice_sequencer[1]" : [ 2, 8, 16, 0, 8, 0, 1001, 2002, 3003, 4004, 5005, 6006, 7007, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"te_effects_sync_delay_rate" : [ 8 ],
 							"te_effects_sync_delay_rate[1]" : [ 8 ]
 						}
@@ -39208,7 +39278,7 @@
 			}
 ,
 			"snapshotlist" : 			{
-				"current_snapshot" : 4,
+				"current_snapshot" : 1,
 				"entries" : [ 					{
 						"filetype" : "C74Snapshot",
 						"version" : 2,
@@ -39569,92 +39639,92 @@
 									"POSITION[1]" : 0.0,
 									"SLICE" : 16.0,
 									"SLICE[1]" : 1.0,
-									"amp_env[12]" : 1.0,
-									"amp_env[13]" : 2.0,
-									"amp_env[14]" : 12.0,
-									"amp_env[15]" : 0.0,
+									"amp_env[12]" : 7.0,
+									"amp_env[13]" : 1.0,
+									"amp_env[14]" : 0.0,
+									"amp_env[15]" : 3.0,
 									"clock_output_enable" : 0.0,
 									"delete_slice" : 0.0,
 									"delete_slice[1]" : 0.0,
-									"fm_env[12]" : 5.0,
+									"fm_env[12]" : 13.0,
 									"fm_env[16]" : 7.0,
 									"fm_env[17]" : 7.0,
-									"fm_env[18]" : 12.0,
-									"fm_env[19]" : 10.0,
-									"fm_env[20]" : 8.0,
+									"fm_env[18]" : 10.0,
+									"fm_env[19]" : 9.0,
+									"fm_env[20]" : 12.0,
 									"global_quantize_level" : 13.0,
-									"hm_amp_env" : 2.0,
-									"hm_amp_env[10]" : 15.0,
-									"hm_amp_env[11]" : 9.0,
-									"hm_amp_env[1]" : 1.0,
-									"hm_amp_env[2]" : 14.0,
-									"hm_amp_env[3]" : 9.0,
-									"hm_amp_env[4]" : 0.0,
-									"hm_amp_env[5]" : 8.0,
-									"hm_amp_env[6]" : 0.0,
-									"hm_amp_env[7]" : 7.0,
-									"hm_amp_env[8]" : 12.0,
-									"hm_amp_env[9]" : 1.0,
+									"hm_amp_env" : 1.0,
+									"hm_amp_env[10]" : 5.0,
+									"hm_amp_env[11]" : 4.0,
+									"hm_amp_env[1]" : 0.0,
+									"hm_amp_env[2]" : 0.0,
+									"hm_amp_env[3]" : 2.0,
+									"hm_amp_env[4]" : 4.0,
+									"hm_amp_env[5]" : 10.0,
+									"hm_amp_env[6]" : 8.0,
+									"hm_amp_env[7]" : 1.0,
+									"hm_amp_env[8]" : 5.0,
+									"hm_amp_env[9]" : 10.0,
 									"hm_enable" : 0.0,
-									"hm_enable[10]" : 0.0,
+									"hm_enable[10]" : 1.0,
 									"hm_enable[11]" : 0.0,
-									"hm_enable[1]" : 0.0,
+									"hm_enable[1]" : 1.0,
 									"hm_enable[2]" : 0.0,
-									"hm_enable[3]" : 0.0,
+									"hm_enable[3]" : 1.0,
 									"hm_enable[4]" : 0.0,
 									"hm_enable[5]" : 1.0,
-									"hm_enable[6]" : 0.0,
+									"hm_enable[6]" : 1.0,
 									"hm_enable[7]" : 1.0,
-									"hm_enable[8]" : 0.0,
+									"hm_enable[8]" : 1.0,
 									"hm_enable[9]" : 1.0,
-									"hm_fm_env" : 4.0,
-									"hm_fm_env[10]" : 5.0,
-									"hm_fm_env[11]" : 11.0,
-									"hm_fm_env[1]" : 9.0,
-									"hm_fm_env[2]" : 1.0,
-									"hm_fm_env[3]" : 5.0,
-									"hm_fm_env[4]" : 9.0,
-									"hm_fm_env[5]" : 3.0,
-									"hm_fm_env[6]" : 11.0,
-									"hm_fm_env[7]" : 0.0,
-									"hm_fm_env[8]" : 3.0,
-									"hm_fm_env[9]" : 11.0,
+									"hm_fm_env" : 5.0,
+									"hm_fm_env[10]" : 9.0,
+									"hm_fm_env[11]" : 9.0,
+									"hm_fm_env[1]" : 8.0,
+									"hm_fm_env[2]" : 5.0,
+									"hm_fm_env[3]" : 3.0,
+									"hm_fm_env[4]" : 12.0,
+									"hm_fm_env[5]" : 12.0,
+									"hm_fm_env[6]" : 13.0,
+									"hm_fm_env[7]" : 4.0,
+									"hm_fm_env[8]" : 7.0,
+									"hm_fm_env[9]" : 4.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 75.0,
-									"hm_pitch[10]" : 65.0,
-									"hm_pitch[11]" : 57.0,
-									"hm_pitch[1]" : 63.0,
-									"hm_pitch[2]" : 80.0,
-									"hm_pitch[3]" : 59.0,
-									"hm_pitch[4]" : 58.0,
-									"hm_pitch[5]" : 62.0,
-									"hm_pitch[6]" : 47.0,
-									"hm_pitch[7]" : 53.0,
-									"hm_pitch[8]" : 70.0,
-									"hm_pitch[9]" : 59.0,
-									"hm_ratio" : 10.437252044677734,
-									"hm_ratio[10]" : 5.062745094299316,
-									"hm_ratio[11]" : 11.250979423522949,
-									"hm_ratio[1]" : 3.680391788482666,
-									"hm_ratio[2]" : 11.250979423522949,
-									"hm_ratio[3]" : 1.200000166893005,
-									"hm_ratio[4]" : 4.007843017578125,
-									"hm_ratio[5]" : 10.99411678314209,
-									"hm_ratio[6]" : 11.266669273376465,
-									"hm_ratio[7]" : 9.96666431427002,
-									"hm_ratio[8]" : 6.390195369720459,
-									"hm_ratio[9]" : 3.26862645149231,
-									"import_media" : 0.0,
+									"hm_pitch" : 59.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 59.0,
+									"hm_pitch[1]" : 61.0,
+									"hm_pitch[2]" : 61.0,
+									"hm_pitch[3]" : 60.0,
+									"hm_pitch[4]" : 59.0,
+									"hm_pitch[5]" : 59.0,
+									"hm_pitch[6]" : 60.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 59.0,
+									"hm_pitch[9]" : 61.0,
+									"hm_ratio" : 11.237255096435547,
+									"hm_ratio[10]" : 4.462745666503906,
+									"hm_ratio[11]" : 11.650980949401855,
+									"hm_ratio[1]" : 3.380391836166382,
+									"hm_ratio[2]" : 11.450980186462402,
+									"hm_ratio[3]" : 0.100000016391277,
+									"hm_ratio[4]" : 3.607843160629272,
+									"hm_ratio[5]" : 10.794116020202637,
+									"hm_ratio[6]" : 10.266665458679199,
+									"hm_ratio[7]" : 10.366665840148926,
+									"hm_ratio[8]" : 5.390196323394775,
+									"hm_ratio[9]" : 1.668627500534058,
 									"import_media[1]" : 0.0,
+									"import_media[2]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
 									"live.tab[3]" : 0.0,
 									"live.text[137]" : 1.0,
-									"live.text[21]" : 1.0,
+									"live.text[21]" : 0.0,
 									"live.text[22]" : 1.0,
-									"live.text[50]" : 0.0,
+									"live.text[50]" : 1.0,
 									"live.text[51]" : 1.0,
 									"live.text[57]" : 0.0,
 									"live.text[58]" : 0.0,
@@ -39662,20 +39732,20 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 9.0,
 									"media_selection[1]" : 9.0,
-									"pitch[12]" : 58.0,
+									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
 									"pitch[17]" : 60.0,
-									"pitch[18]" : 65.0,
-									"pitch[19]" : 60.0,
+									"pitch[18]" : 59.0,
+									"pitch[19]" : 61.0,
 									"pitch_sequencer_run" : 0.0,
 									"pitch_sequencer_run[1]" : 0.0,
 									"pitch_sequencer_step_size" : 0.0,
 									"pitch_sequencer_step_size[1]" : 0.0,
 									"random_transpose_prob" : 0.0,
 									"random_transpose_prob[1]" : 0.0,
-									"ratio[12]" : 10.450976371765137,
-									"ratio[13]" : 13.150986671447754,
-									"ratio[14]" : 4.905882358551025,
+									"ratio[12]" : 11.650980949401855,
+									"ratio[13]" : 12.050982475280762,
+									"ratio[14]" : 5.005882263183594,
 									"ratio[15]" : 9.782352447509766,
 									"reverse" : 0.0,
 									"reverse[1]" : 0.0,
@@ -39766,13 +39836,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -39784,10 +39856,10 @@
 										"amp_amt[14]" : [ 80.0 ],
 										"amp_amt[15]" : [ 80.0 ],
 										"duration[16]" : [ "16n" ],
-										"duration[17]" : [ "16n" ],
-										"duration[18]" : [ "8n" ],
-										"duration[19]" : [ "8n" ],
-										"duration[20]" : [ "16n" ],
+										"duration[17]" : [ "1nt" ],
+										"duration[18]" : [ "16n" ],
+										"duration[19]" : [ "16n" ],
+										"duration[20]" : [ "64n" ],
 										"hm_FM_amt" : [ 25.0 ],
 										"hm_FM_amt[10]" : [ 23.0 ],
 										"hm_FM_amt[11]" : [ 70.0 ],
@@ -39812,18 +39884,18 @@
 										"hm_amp_amt[7]" : [ 80.0 ],
 										"hm_amp_amt[8]" : [ 80.0 ],
 										"hm_amp_amt[9]" : [ 80.0 ],
-										"hm_duration" : [ "16n" ],
-										"hm_duration[10]" : [ "1n" ],
-										"hm_duration[11]" : [ "64n" ],
-										"hm_duration[1]" : [ "2n" ],
-										"hm_duration[2]" : [ "16n" ],
+										"hm_duration" : [ "8n" ],
+										"hm_duration[10]" : [ "16n" ],
+										"hm_duration[11]" : [ "4n" ],
+										"hm_duration[1]" : [ "4n" ],
+										"hm_duration[2]" : [ "8n" ],
 										"hm_duration[3]" : [ "16n" ],
 										"hm_duration[4]" : [ "16n" ],
-										"hm_duration[5]" : [ "1n" ],
-										"hm_duration[6]" : [ "8n" ],
-										"hm_duration[7]" : [ "32nd" ],
-										"hm_duration[8]" : [ "64n" ],
-										"hm_duration[9]" : [ "16n" ],
+										"hm_duration[5]" : [ "8n" ],
+										"hm_duration[6]" : [ "1n" ],
+										"hm_duration[7]" : [ "8n" ],
+										"hm_duration[8]" : [ "16n" ],
+										"hm_duration[9]" : [ "1n" ],
 										"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"mod_source_mod_type" : [ 0 ],
@@ -39885,7 +39957,7 @@
 						}
 ,
 						"fileref" : 						{
-							"name" : "Texture Explorer",
+							"name" : "Zen Garden",
 							"filename" : "Texture Explorer_20210215_2.maxsnap",
 							"filepath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/data",
 							"filepos" : -1,
@@ -39925,70 +39997,70 @@
 									"fm_env[19]" : 10.0,
 									"fm_env[20]" : 11.0,
 									"global_quantize_level" : 13.0,
-									"hm_amp_env" : 8.0,
-									"hm_amp_env[10]" : 14.0,
-									"hm_amp_env[11]" : 5.0,
-									"hm_amp_env[1]" : 15.0,
-									"hm_amp_env[2]" : 10.0,
-									"hm_amp_env[3]" : 0.0,
-									"hm_amp_env[4]" : 8.0,
-									"hm_amp_env[5]" : 12.0,
-									"hm_amp_env[6]" : 4.0,
-									"hm_amp_env[7]" : 3.0,
-									"hm_amp_env[8]" : 2.0,
-									"hm_amp_env[9]" : 4.0,
-									"hm_enable" : 0.0,
-									"hm_enable[10]" : 1.0,
+									"hm_amp_env" : 0.0,
+									"hm_amp_env[10]" : 7.0,
+									"hm_amp_env[11]" : 3.0,
+									"hm_amp_env[1]" : 3.0,
+									"hm_amp_env[2]" : 0.0,
+									"hm_amp_env[3]" : 5.0,
+									"hm_amp_env[4]" : 10.0,
+									"hm_amp_env[5]" : 7.0,
+									"hm_amp_env[6]" : 7.0,
+									"hm_amp_env[7]" : 9.0,
+									"hm_amp_env[8]" : 0.0,
+									"hm_amp_env[9]" : 8.0,
+									"hm_enable" : 1.0,
+									"hm_enable[10]" : 0.0,
 									"hm_enable[11]" : 1.0,
-									"hm_enable[1]" : 0.0,
+									"hm_enable[1]" : 1.0,
 									"hm_enable[2]" : 0.0,
 									"hm_enable[3]" : 1.0,
-									"hm_enable[4]" : 0.0,
+									"hm_enable[4]" : 1.0,
 									"hm_enable[5]" : 1.0,
 									"hm_enable[6]" : 0.0,
 									"hm_enable[7]" : 1.0,
-									"hm_enable[8]" : 1.0,
+									"hm_enable[8]" : 0.0,
 									"hm_enable[9]" : 1.0,
-									"hm_fm_env" : 13.0,
-									"hm_fm_env[10]" : 6.0,
-									"hm_fm_env[11]" : 11.0,
-									"hm_fm_env[1]" : 4.0,
-									"hm_fm_env[2]" : 1.0,
-									"hm_fm_env[3]" : 14.0,
-									"hm_fm_env[4]" : 14.0,
-									"hm_fm_env[5]" : 12.0,
-									"hm_fm_env[6]" : 12.0,
-									"hm_fm_env[7]" : 9.0,
-									"hm_fm_env[8]" : 11.0,
-									"hm_fm_env[9]" : 10.0,
+									"hm_fm_env" : 10.0,
+									"hm_fm_env[10]" : 10.0,
+									"hm_fm_env[11]" : 10.0,
+									"hm_fm_env[1]" : 0.0,
+									"hm_fm_env[2]" : 8.0,
+									"hm_fm_env[3]" : 13.0,
+									"hm_fm_env[4]" : 6.0,
+									"hm_fm_env[5]" : 0.0,
+									"hm_fm_env[6]" : 10.0,
+									"hm_fm_env[7]" : 7.0,
+									"hm_fm_env[8]" : 5.0,
+									"hm_fm_env[9]" : 6.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 59.0,
-									"hm_pitch[10]" : 61.0,
-									"hm_pitch[11]" : 61.0,
+									"hm_pitch" : 60.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
 									"hm_pitch[1]" : 60.0,
 									"hm_pitch[2]" : 60.0,
-									"hm_pitch[3]" : 59.0,
-									"hm_pitch[4]" : 59.0,
-									"hm_pitch[5]" : 61.0,
+									"hm_pitch[3]" : 60.0,
+									"hm_pitch[4]" : 60.0,
+									"hm_pitch[5]" : 60.0,
 									"hm_pitch[6]" : 60.0,
-									"hm_pitch[7]" : 59.0,
-									"hm_pitch[8]" : 59.0,
-									"hm_pitch[9]" : 61.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 60.0,
+									"hm_pitch[9]" : 60.0,
 									"hm_ratio" : 11.237255096435547,
-									"hm_ratio[10]" : 4.662745475769043,
-									"hm_ratio[11]" : 11.550980567932129,
-									"hm_ratio[1]" : 3.280391931533813,
+									"hm_ratio[10]" : 4.462745666503906,
+									"hm_ratio[11]" : 11.750981330871582,
+									"hm_ratio[1]" : 3.380391836166382,
 									"hm_ratio[2]" : 11.550980567932129,
 									"hm_ratio[3]" : 0.100000016391277,
 									"hm_ratio[4]" : 3.507843255996704,
 									"hm_ratio[5]" : 10.794116020202637,
 									"hm_ratio[6]" : 10.366665840148926,
-									"hm_ratio[7]" : 10.466666221618652,
-									"hm_ratio[8]" : 5.390196323394775,
+									"hm_ratio[7]" : 10.366665840148926,
+									"hm_ratio[8]" : 5.590196132659912,
 									"hm_ratio[9]" : 1.768627524375916,
-									"import_media" : 0.0,
 									"import_media[1]" : 0.0,
+									"import_media[2]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
@@ -40108,13 +40180,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Phrases.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Phrases.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Phrases.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Phrases.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -40154,17 +40228,17 @@
 										"hm_amp_amt[7]" : [ 80.0 ],
 										"hm_amp_amt[8]" : [ 80.0 ],
 										"hm_amp_amt[9]" : [ 80.0 ],
-										"hm_duration" : [ "8n" ],
-										"hm_duration[10]" : [ "8n" ],
-										"hm_duration[11]" : [ "16n" ],
-										"hm_duration[1]" : [ "8n" ],
-										"hm_duration[2]" : [ "8n" ],
-										"hm_duration[3]" : [ "8n" ],
-										"hm_duration[4]" : [ "16n" ],
-										"hm_duration[5]" : [ "16n" ],
-										"hm_duration[6]" : [ "1n" ],
+										"hm_duration" : [ "4n" ],
+										"hm_duration[10]" : [ "16n" ],
+										"hm_duration[11]" : [ "4n" ],
+										"hm_duration[1]" : [ "16n" ],
+										"hm_duration[2]" : [ "4n" ],
+										"hm_duration[3]" : [ "4n" ],
+										"hm_duration[4]" : [ "8n" ],
+										"hm_duration[5]" : [ "32nd" ],
+										"hm_duration[6]" : [ "8n" ],
 										"hm_duration[7]" : [ "1nt" ],
-										"hm_duration[8]" : [ "16n" ],
+										"hm_duration[8]" : [ "64n" ],
 										"hm_duration[9]" : [ "16n" ],
 										"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
@@ -40227,7 +40301,7 @@
 						}
 ,
 						"fileref" : 						{
-							"name" : "Texture Explorer",
+							"name" : "Aleatoric Piano",
 							"filename" : "Texture Explorer_20210215_3.maxsnap",
 							"filepath" : "~/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/data",
 							"filepos" : -1,
@@ -40251,7 +40325,7 @@
 									"DURATION[1]" : 1.0,
 									"POSITION" : 0.0,
 									"POSITION[1]" : 0.0,
-									"SLICE" : 14.0,
+									"SLICE" : 12.0,
 									"SLICE[1]" : 1.0,
 									"amp_env[12]" : 9.0,
 									"amp_env[13]" : 13.0,
@@ -40305,34 +40379,32 @@
 									"hm_fm_env[9]" : 12.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 59.0,
-									"hm_pitch[10]" : 59.0,
-									"hm_pitch[11]" : 62.0,
-									"hm_pitch[1]" : 61.0,
+									"hm_pitch" : 60.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 60.0,
 									"hm_pitch[2]" : 60.0,
-									"hm_pitch[3]" : 58.0,
-									"hm_pitch[4]" : 57.0,
-									"hm_pitch[5]" : 59.0,
+									"hm_pitch[3]" : 60.0,
+									"hm_pitch[4]" : 60.0,
+									"hm_pitch[5]" : 60.0,
 									"hm_pitch[6]" : 60.0,
 									"hm_pitch[7]" : 60.0,
-									"hm_pitch[8]" : 59.0,
+									"hm_pitch[8]" : 60.0,
 									"hm_pitch[9]" : 60.0,
-									"hm_ratio" : 11.13725471496582,
+									"hm_ratio" : 11.237255096435547,
 									"hm_ratio[10]" : 4.562745571136475,
-									"hm_ratio[11]" : 11.850981712341309,
+									"hm_ratio[11]" : 11.650980949401855,
 									"hm_ratio[1]" : 3.280391931533813,
-									"hm_ratio[2]" : 11.350979804992676,
-									"hm_ratio[3]" : 0.300000011920929,
+									"hm_ratio[2]" : 11.450980186462402,
+									"hm_ratio[3]" : 0.200000017881393,
 									"hm_ratio[4]" : 3.607843160629272,
-									"hm_ratio[5]" : 10.99411678314209,
-									"hm_ratio[6]" : 10.466666221618652,
-									"hm_ratio[7]" : 10.366665840148926,
-									"hm_ratio[8]" : 5.790195941925049,
-									"hm_ratio[9]" : 1.868627548217773,
-									"import_media" : 0.0,
+									"hm_ratio[5]" : 10.894116401672363,
+									"hm_ratio[6]" : 10.366665840148926,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.490196228027344,
+									"hm_ratio[9]" : 1.668627500534058,
 									"import_media[1]" : 0.0,
 									"import_media[2]" : 0.0,
-									"import_media[3]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
@@ -40348,7 +40420,7 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 9.0,
 									"media_selection[1]" : 9.0,
-									"pitch[12]" : 59.0,
+									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
 									"pitch[17]" : 59.0,
 									"pitch[18]" : 61.0,
@@ -40452,13 +40524,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Orff.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -40592,37 +40666,37 @@
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"DURATION" : 0.302,
-									"DURATION[1]" : 0.0627,
+									"DURATION[1]" : 0.187,
 									"POSITION" : 0.21,
-									"POSITION[1]" : 0.3084,
+									"POSITION[1]" : 0.39,
 									"SLICE" : 8.0,
 									"SLICE[1]" : 1.0,
-									"amp_env[12]" : 10.0,
-									"amp_env[13]" : 6.0,
-									"amp_env[14]" : 5.0,
-									"amp_env[15]" : 9.0,
+									"amp_env[12]" : 0.0,
+									"amp_env[13]" : 9.0,
+									"amp_env[14]" : 2.0,
+									"amp_env[15]" : 4.0,
 									"clock_output_enable" : 0.0,
 									"delete_slice" : 0.0,
 									"delete_slice[1]" : 0.0,
 									"fm_env[12]" : 9.0,
 									"fm_env[16]" : 7.0,
 									"fm_env[17]" : 7.0,
-									"fm_env[18]" : 13.0,
-									"fm_env[19]" : 7.0,
-									"fm_env[20]" : 2.0,
+									"fm_env[18]" : 2.0,
+									"fm_env[19]" : 0.0,
+									"fm_env[20]" : 3.0,
 									"global_quantize_level" : 13.0,
-									"hm_amp_env" : 12.0,
-									"hm_amp_env[10]" : 9.0,
-									"hm_amp_env[11]" : 13.0,
-									"hm_amp_env[1]" : 5.0,
-									"hm_amp_env[2]" : 8.0,
-									"hm_amp_env[3]" : 13.0,
-									"hm_amp_env[4]" : 7.0,
-									"hm_amp_env[5]" : 12.0,
-									"hm_amp_env[6]" : 12.0,
-									"hm_amp_env[7]" : 0.0,
-									"hm_amp_env[8]" : 3.0,
-									"hm_amp_env[9]" : 1.0,
+									"hm_amp_env" : 4.0,
+									"hm_amp_env[10]" : 11.0,
+									"hm_amp_env[11]" : 8.0,
+									"hm_amp_env[1]" : 15.0,
+									"hm_amp_env[2]" : 1.0,
+									"hm_amp_env[3]" : 5.0,
+									"hm_amp_env[4]" : 10.0,
+									"hm_amp_env[5]" : 10.0,
+									"hm_amp_env[6]" : 7.0,
+									"hm_amp_env[7]" : 2.0,
+									"hm_amp_env[8]" : 6.0,
+									"hm_amp_env[9]" : 7.0,
 									"hm_enable" : 0.0,
 									"hm_enable[10]" : 0.0,
 									"hm_enable[11]" : 1.0,
@@ -40633,48 +40707,48 @@
 									"hm_enable[5]" : 0.0,
 									"hm_enable[6]" : 0.0,
 									"hm_enable[7]" : 1.0,
-									"hm_enable[8]" : 1.0,
+									"hm_enable[8]" : 0.0,
 									"hm_enable[9]" : 1.0,
-									"hm_fm_env" : 3.0,
-									"hm_fm_env[10]" : 10.0,
+									"hm_fm_env" : 12.0,
+									"hm_fm_env[10]" : 2.0,
 									"hm_fm_env[11]" : 12.0,
-									"hm_fm_env[1]" : 9.0,
-									"hm_fm_env[2]" : 13.0,
-									"hm_fm_env[3]" : 7.0,
-									"hm_fm_env[4]" : 1.0,
-									"hm_fm_env[5]" : 7.0,
-									"hm_fm_env[6]" : 7.0,
-									"hm_fm_env[7]" : 10.0,
-									"hm_fm_env[8]" : 6.0,
-									"hm_fm_env[9]" : 11.0,
+									"hm_fm_env[1]" : 14.0,
+									"hm_fm_env[2]" : 3.0,
+									"hm_fm_env[3]" : 11.0,
+									"hm_fm_env[4]" : 13.0,
+									"hm_fm_env[5]" : 2.0,
+									"hm_fm_env[6]" : 8.0,
+									"hm_fm_env[7]" : 0.0,
+									"hm_fm_env[8]" : 8.0,
+									"hm_fm_env[9]" : 9.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
 									"hm_pitch" : 60.0,
-									"hm_pitch[10]" : 61.0,
-									"hm_pitch[11]" : 59.0,
-									"hm_pitch[1]" : 64.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 60.0,
 									"hm_pitch[2]" : 60.0,
-									"hm_pitch[3]" : 59.0,
-									"hm_pitch[4]" : 62.0,
-									"hm_pitch[5]" : 55.0,
-									"hm_pitch[6]" : 58.0,
-									"hm_pitch[7]" : 61.0,
-									"hm_pitch[8]" : 57.0,
-									"hm_pitch[9]" : 59.0,
-									"hm_ratio" : 11.437255859375,
-									"hm_ratio[10]" : 4.062746047973633,
-									"hm_ratio[11]" : 11.350979804992676,
-									"hm_ratio[1]" : 3.080392122268677,
-									"hm_ratio[2]" : 11.150979042053223,
-									"hm_ratio[3]" : 0.300000011920929,
-									"hm_ratio[4]" : 3.207843542098999,
-									"hm_ratio[5]" : 10.69411563873291,
-									"hm_ratio[6]" : 10.066664695739746,
-									"hm_ratio[7]" : 10.566666603088379,
-									"hm_ratio[8]" : 5.290196418762207,
+									"hm_pitch[3]" : 60.0,
+									"hm_pitch[4]" : 60.0,
+									"hm_pitch[5]" : 60.0,
+									"hm_pitch[6]" : 60.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 60.0,
+									"hm_pitch[9]" : 60.0,
+									"hm_ratio" : 11.237255096435547,
+									"hm_ratio[10]" : 4.562745571136475,
+									"hm_ratio[11]" : 11.650980949401855,
+									"hm_ratio[1]" : 3.280391931533813,
+									"hm_ratio[2]" : 11.450980186462402,
+									"hm_ratio[3]" : 0.200000017881393,
+									"hm_ratio[4]" : 3.607843160629272,
+									"hm_ratio[5]" : 10.894116401672363,
+									"hm_ratio[6]" : 10.366665840148926,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.490196228027344,
 									"hm_ratio[9]" : 1.668627500534058,
-									"import_media" : 0.0,
 									"import_media[1]" : 0.0,
+									"import_media[2]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
@@ -40692,19 +40766,19 @@
 									"media_selection[1]" : 10.0,
 									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
-									"pitch[17]" : 60.0,
-									"pitch[18]" : 63.0,
-									"pitch[19]" : 59.0,
+									"pitch[17]" : 67.0,
+									"pitch[18]" : 55.0,
+									"pitch[19]" : 57.0,
 									"pitch_sequencer_run" : 0.0,
-									"pitch_sequencer_run[1]" : 0.0,
+									"pitch_sequencer_run[1]" : 1.0,
 									"pitch_sequencer_step_size" : 0.0,
-									"pitch_sequencer_step_size[1]" : 0.0,
+									"pitch_sequencer_step_size[1]" : 4.0,
 									"random_transpose_prob" : 0.0,
 									"random_transpose_prob[1]" : 0.0,
-									"ratio[12]" : 12.050982475280762,
-									"ratio[13]" : 11.850981712341309,
-									"ratio[14]" : 5.005882263183594,
-									"ratio[15]" : 10.082353591918945,
+									"ratio[12]" : 10.250975608825684,
+									"ratio[13]" : 12.750985145568848,
+									"ratio[14]" : 5.305881977081299,
+									"ratio[15]" : 9.582351684570312,
 									"reverse" : 1.0,
 									"reverse[1]" : 0.0,
 									"slice_onset_mode" : 0.0,
@@ -40726,9 +40800,9 @@
 									"slice_window_shape" : 1.0,
 									"slice_window_shape[1]" : 1.0,
 									"te_effects_hpf_enable" : 1.0,
-									"te_effects_hpf_enable[1]" : 0.0,
+									"te_effects_hpf_enable[1]" : 1.0,
 									"te_effects_hpf_freq" : 3136.639120693456334,
-									"te_effects_hpf_freq[1]" : 2349.237545890302044,
+									"te_effects_hpf_freq[1]" : 2979.158805732829478,
 									"te_effects_lpf_LFO_phase" : 0.0,
 									"te_effects_lpf_LFO_phase[1]" : 0.0,
 									"te_effects_lpf_LFOamt" : 0.0,
@@ -40752,7 +40826,7 @@
 									"te_effects_reverb_enable" : 1.0,
 									"te_effects_reverb_enable[1]" : 1.0,
 									"te_effects_reverb_mix" : 26.377952755905522,
-									"te_effects_reverb_mix[1]" : 59.842519685039427,
+									"te_effects_reverb_mix[1]" : 37.795275590551256,
 									"te_effects_reverb_regen" : 0.5,
 									"te_effects_reverb_regen[1]" : 0.5,
 									"te_effects_reverb_size" : 149.974981234360769,
@@ -40785,7 +40859,7 @@
 									"te_effects_tremolo_wave[1]" : 0.0,
 									"tempo" : 80.0,
 									"trim" : 0.0,
-									"trim[1]" : 0.0,
+									"trim[1]" : 1.574803149606296,
 									"umenu[1]" : 0.0,
 									"umenu[2]" : 0.0,
 									"umenu[3]" : 3.0,
@@ -40793,14 +40867,16 @@
 									"umenu[5]" : 0.0,
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
-									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
+									"umenu[8]" : 3.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Phrases.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Chords.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Phrases.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Chords.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -40813,9 +40889,9 @@
 										"amp_amt[15]" : [ 80.0 ],
 										"duration[16]" : [ "16n" ],
 										"duration[17]" : [ "64n" ],
-										"duration[18]" : [ "1n" ],
-										"duration[19]" : [ "8n" ],
-										"duration[20]" : [ "32nd" ],
+										"duration[18]" : [ "8n" ],
+										"duration[19]" : [ "1n" ],
+										"duration[20]" : [ "16n" ],
 										"hm_FM_amt" : [ 25.0 ],
 										"hm_FM_amt[10]" : [ 23.0 ],
 										"hm_FM_amt[11]" : [ 70.0 ],
@@ -40841,16 +40917,16 @@
 										"hm_amp_amt[8]" : [ 80.0 ],
 										"hm_amp_amt[9]" : [ 80.0 ],
 										"hm_duration" : [ "16n" ],
-										"hm_duration[10]" : [ "8n" ],
-										"hm_duration[11]" : [ "32nd" ],
-										"hm_duration[1]" : [ "64n" ],
-										"hm_duration[2]" : [ "16n" ],
-										"hm_duration[3]" : [ "16n" ],
-										"hm_duration[4]" : [ "8n" ],
-										"hm_duration[5]" : [ "16n" ],
-										"hm_duration[6]" : [ "8n" ],
+										"hm_duration[10]" : [ "1n" ],
+										"hm_duration[11]" : [ "16n" ],
+										"hm_duration[1]" : [ "8n" ],
+										"hm_duration[2]" : [ "1n" ],
+										"hm_duration[3]" : [ "8n" ],
+										"hm_duration[4]" : [ "64n" ],
+										"hm_duration[5]" : [ "64n" ],
+										"hm_duration[6]" : [ "16n" ],
 										"hm_duration[7]" : [ "16n" ],
-										"hm_duration[8]" : [ "8n" ],
+										"hm_duration[8]" : [ "16n" ],
 										"hm_duration[9]" : [ "8n" ],
 										"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
@@ -40882,7 +40958,7 @@
 										"mod_soure_mod_amt[1]" : [ 0.235 ],
 										"mod_soure_mod_amt[2]" : [ 0.42 ],
 										"mod_soure_mod_amt[3]" : [ 11.940000000000003 ],
-										"mod_soure_mod_amt[4]" : [ 0.5 ],
+										"mod_soure_mod_amt[4]" : [ 0.331 ],
 										"mod_soure_mod_amt[5]" : [ 0.0 ],
 										"mod_soure_mod_amt[6]" : [ 0.0 ],
 										"mod_soure_mod_amt[7]" : [ 12.0 ],
@@ -40893,11 +40969,11 @@
 										"modulation_sequencer[4]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 										"modulation_sequencer[5]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 										"modulation_sequencer[6]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-										"modulation_sequencer[7]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+										"modulation_sequencer[7]" : [ 0.0, 0.0, 0.0, 4.166658878326416, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 129.166656494140625, 160.416656494140625, 191.666656494140625, 191.666656494140625, 191.666656494140625, 191.666656494140625, 191.666656494140625, 254.166656494140625, 254.166656494140625, 269.791656494140625, 285.416656494140625, 301.041656494140625, 316.666656494140625, 379.166656494140625, 379.166656494140625, 379.166656494140625, 379.166656494140625, 441.666656494140625, 472.916656494140625, 504.166656494140625, 504.166656494140625, 504.166656494140625, 566.66668701171875, 566.66668701171875, 566.66668701171875, 629.16668701171875, 629.16668701171875, 629.16668701171875, 629.16668701171875, 691.66668701171875, 754.16668701171875, 754.16668701171875, 754.16668701171875, 754.16668701171875, 754.16668701171875, 785.41668701171875, 816.66668701171875, 847.91668701171875, 879.16668701171875, 879.16668701171875, 879.16668701171875, 900.0, 920.83331298828125, 941.66668701171875, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 970.83331298828125, 941.66668701171875, 926.04168701171875, 910.41668701171875, 894.79168701171875, 879.16668701171875, 816.66668701171875, 754.16668701171875, 754.16668701171875, 754.16668701171875, 754.16668701171875, 754.16668701171875, 691.66668701171875, 629.16668701171875, 591.66668701171875, 554.16668701171875, 516.66668701171875, 479.166656494140625, 441.666656494140625, 441.666656494140625, 441.666656494140625, 441.666656494140625, 379.166656494140625, 337.5, 295.83331298828125, 0.0 ],
 										"pitch_bias" : [ 0.0 ],
-										"pitch_bias[1]" : [ -12.0 ],
+										"pitch_bias[1]" : [ 0.0 ],
 										"pitch_sequencer" : [ 2, 8, 25, 0, 8, 12, 1012, 2012, 3012, 4012, 5012, 6012, 7012, 2, 2, 2, 2, 2, 2, 2, 2 ],
-										"pitch_sequencer[1]" : [ 2, 8, 25, 0, 8, 12, 1012, 2012, 3012, 4010, 5010, 6005, 7005, 2, 2, 2, 2, 2, 2, 2, 2 ],
+										"pitch_sequencer[1]" : [ 2, 8, 25, 0, 8, 10, 1010, 2007, 3007, 4005, 5005, 6012, 7012, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"pitch_sequencer_steps" : [ 8 ],
 										"pitch_sequencer_steps[1]" : [ 8 ],
 										"slice_sequencer" : [ 2, 8, 12, 0, 8, 0, 1001, 2002, 3003, 4004, 5005, 6006, 7007, 2, 2, 2, 2, 2, 2, 2, 2 ],
@@ -40938,85 +41014,85 @@
 									"POSITION" : 0.0,
 									"POSITION[1]" : 0.3084,
 									"SLICE" : 12.0,
-									"SLICE[1]" : 12.0,
-									"amp_env[12]" : 2.0,
-									"amp_env[13]" : 4.0,
-									"amp_env[14]" : 0.0,
-									"amp_env[15]" : 6.0,
+									"SLICE[1]" : 10.0,
+									"amp_env[12]" : 9.0,
+									"amp_env[13]" : 14.0,
+									"amp_env[14]" : 7.0,
+									"amp_env[15]" : 13.0,
 									"clock_output_enable" : 0.0,
 									"delete_slice" : 0.0,
 									"delete_slice[1]" : 0.0,
-									"fm_env[12]" : 6.0,
+									"fm_env[12]" : 9.0,
 									"fm_env[16]" : 7.0,
 									"fm_env[17]" : 7.0,
-									"fm_env[18]" : 6.0,
-									"fm_env[19]" : 14.0,
-									"fm_env[20]" : 9.0,
+									"fm_env[18]" : 13.0,
+									"fm_env[19]" : 11.0,
+									"fm_env[20]" : 14.0,
 									"global_quantize_level" : 13.0,
-									"hm_amp_env" : 8.0,
-									"hm_amp_env[10]" : 1.0,
-									"hm_amp_env[11]" : 11.0,
-									"hm_amp_env[1]" : 14.0,
-									"hm_amp_env[2]" : 14.0,
-									"hm_amp_env[3]" : 3.0,
-									"hm_amp_env[4]" : 0.0,
-									"hm_amp_env[5]" : 1.0,
-									"hm_amp_env[6]" : 5.0,
-									"hm_amp_env[7]" : 12.0,
-									"hm_amp_env[8]" : 1.0,
-									"hm_amp_env[9]" : 0.0,
-									"hm_enable" : 1.0,
-									"hm_enable[10]" : 1.0,
+									"hm_amp_env" : 4.0,
+									"hm_amp_env[10]" : 7.0,
+									"hm_amp_env[11]" : 6.0,
+									"hm_amp_env[1]" : 0.0,
+									"hm_amp_env[2]" : 7.0,
+									"hm_amp_env[3]" : 14.0,
+									"hm_amp_env[4]" : 3.0,
+									"hm_amp_env[5]" : 3.0,
+									"hm_amp_env[6]" : 9.0,
+									"hm_amp_env[7]" : 1.0,
+									"hm_amp_env[8]" : 12.0,
+									"hm_amp_env[9]" : 4.0,
+									"hm_enable" : 0.0,
+									"hm_enable[10]" : 0.0,
 									"hm_enable[11]" : 1.0,
-									"hm_enable[1]" : 1.0,
-									"hm_enable[2]" : 1.0,
-									"hm_enable[3]" : 0.0,
-									"hm_enable[4]" : 0.0,
+									"hm_enable[1]" : 0.0,
+									"hm_enable[2]" : 0.0,
+									"hm_enable[3]" : 1.0,
+									"hm_enable[4]" : 1.0,
 									"hm_enable[5]" : 1.0,
 									"hm_enable[6]" : 0.0,
 									"hm_enable[7]" : 0.0,
 									"hm_enable[8]" : 0.0,
 									"hm_enable[9]" : 1.0,
-									"hm_fm_env" : 8.0,
-									"hm_fm_env[10]" : 3.0,
-									"hm_fm_env[11]" : 13.0,
-									"hm_fm_env[1]" : 0.0,
-									"hm_fm_env[2]" : 5.0,
-									"hm_fm_env[3]" : 6.0,
-									"hm_fm_env[4]" : 5.0,
-									"hm_fm_env[5]" : 7.0,
-									"hm_fm_env[6]" : 2.0,
-									"hm_fm_env[7]" : 12.0,
-									"hm_fm_env[8]" : 4.0,
-									"hm_fm_env[9]" : 13.0,
+									"hm_fm_env" : 0.0,
+									"hm_fm_env[10]" : 12.0,
+									"hm_fm_env[11]" : 8.0,
+									"hm_fm_env[1]" : 11.0,
+									"hm_fm_env[2]" : 0.0,
+									"hm_fm_env[3]" : 0.0,
+									"hm_fm_env[4]" : 12.0,
+									"hm_fm_env[5]" : 6.0,
+									"hm_fm_env[6]" : 1.0,
+									"hm_fm_env[7]" : 3.0,
+									"hm_fm_env[8]" : 10.0,
+									"hm_fm_env[9]" : 9.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 61.0,
-									"hm_pitch[10]" : 67.0,
-									"hm_pitch[11]" : 63.0,
-									"hm_pitch[1]" : 62.0,
-									"hm_pitch[2]" : 66.0,
+									"hm_pitch" : 60.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 60.0,
+									"hm_pitch[2]" : 60.0,
 									"hm_pitch[3]" : 60.0,
 									"hm_pitch[4]" : 60.0,
 									"hm_pitch[5]" : 60.0,
-									"hm_pitch[6]" : 56.0,
-									"hm_pitch[7]" : 61.0,
-									"hm_pitch[8]" : 58.0,
-									"hm_pitch[9]" : 58.0,
-									"hm_ratio" : 11.637256622314453,
-									"hm_ratio[10]" : 4.86274528503418,
-									"hm_ratio[11]" : 11.250979423522949,
-									"hm_ratio[1]" : 3.380391836166382,
-									"hm_ratio[2]" : 11.150979042053223,
-									"hm_ratio[3]" : 0.5,
-									"hm_ratio[4]" : 3.207843542098999,
-									"hm_ratio[5]" : 10.99411678314209,
-									"hm_ratio[6]" : 10.066664695739746,
-									"hm_ratio[7]" : 10.666666984558105,
-									"hm_ratio[8]" : 4.790196895599365,
-									"hm_ratio[9]" : 1.268627405166626,
-									"import_media" : 0.0,
+									"hm_pitch[6]" : 60.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 60.0,
+									"hm_pitch[9]" : 60.0,
+									"hm_ratio" : 11.237255096435547,
+									"hm_ratio[10]" : 4.562745571136475,
+									"hm_ratio[11]" : 11.650980949401855,
+									"hm_ratio[1]" : 3.280391931533813,
+									"hm_ratio[2]" : 11.450980186462402,
+									"hm_ratio[3]" : 0.200000017881393,
+									"hm_ratio[4]" : 3.607843160629272,
+									"hm_ratio[5]" : 10.894116401672363,
+									"hm_ratio[6]" : 10.366665840148926,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.490196228027344,
+									"hm_ratio[9]" : 1.668627500534058,
 									"import_media[1]" : 0.0,
+									"import_media[2]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
@@ -41032,10 +41108,10 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 6.0,
 									"media_selection[1]" : 6.0,
-									"pitch[12]" : 62.0,
+									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
-									"pitch[17]" : 59.0,
-									"pitch[18]" : 67.0,
+									"pitch[17]" : 60.0,
+									"pitch[18]" : 61.0,
 									"pitch[19]" : 62.0,
 									"pitch_sequencer_run" : 0.0,
 									"pitch_sequencer_run[1]" : 0.0,
@@ -41043,10 +41119,10 @@
 									"pitch_sequencer_step_size[1]" : 0.0,
 									"random_transpose_prob" : 0.0,
 									"random_transpose_prob[1]" : 0.0,
-									"ratio[12]" : 12.250983238220215,
-									"ratio[13]" : 11.750981330871582,
-									"ratio[14]" : 6.005881309509277,
-									"ratio[15]" : 9.882352828979492,
+									"ratio[12]" : 11.550980567932129,
+									"ratio[13]" : 12.450984001159668,
+									"ratio[14]" : 4.405882835388184,
+									"ratio[15]" : 9.782352447509766,
 									"reverse" : 1.0,
 									"reverse[1]" : 0.0,
 									"slice_onset_mode" : 0.0,
@@ -41136,28 +41212,30 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
 										"FM_amt[15]" : [ 100.0 ],
-										"OVERLAP" : [ 0.145 ],
+										"OVERLAP" : [ 0.189 ],
 										"OVERLAP[1]" : [ 0.34 ],
 										"amp_amt[12]" : [ 80.0 ],
 										"amp_amt[13]" : [ 80.0 ],
 										"amp_amt[14]" : [ 80.0 ],
 										"amp_amt[15]" : [ 80.0 ],
 										"duration[16]" : [ "16n" ],
-										"duration[17]" : [ "16n" ],
+										"duration[17]" : [ "1nt" ],
 										"duration[18]" : [ "16n" ],
-										"duration[19]" : [ "1n" ],
-										"duration[20]" : [ "8n" ],
+										"duration[19]" : [ "8n" ],
+										"duration[20]" : [ "16n" ],
 										"hm_FM_amt" : [ 25.0 ],
 										"hm_FM_amt[10]" : [ 23.0 ],
 										"hm_FM_amt[11]" : [ 70.0 ],
@@ -41182,18 +41260,18 @@
 										"hm_amp_amt[7]" : [ 80.0 ],
 										"hm_amp_amt[8]" : [ 80.0 ],
 										"hm_amp_amt[9]" : [ 80.0 ],
-										"hm_duration" : [ "8n" ],
+										"hm_duration" : [ "16n" ],
 										"hm_duration[10]" : [ "16n" ],
-										"hm_duration[11]" : [ "16n" ],
-										"hm_duration[1]" : [ "1n" ],
-										"hm_duration[2]" : [ "64n" ],
-										"hm_duration[3]" : [ "4n" ],
-										"hm_duration[4]" : [ "16n" ],
-										"hm_duration[5]" : [ "4n" ],
-										"hm_duration[6]" : [ "8n" ],
+										"hm_duration[11]" : [ "8n" ],
+										"hm_duration[1]" : [ "8n" ],
+										"hm_duration[2]" : [ "8n" ],
+										"hm_duration[3]" : [ "16n" ],
+										"hm_duration[4]" : [ "8n" ],
+										"hm_duration[5]" : [ "1n" ],
+										"hm_duration[6]" : [ "16n" ],
 										"hm_duration[7]" : [ "16n" ],
-										"hm_duration[8]" : [ "16n" ],
-										"hm_duration[9]" : [ "16n" ],
+										"hm_duration[8]" : [ "8n" ],
+										"hm_duration[9]" : [ "32nd" ],
 										"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"mod_source_mod_type" : [ 0 ],
@@ -41279,7 +41357,7 @@
 									"DURATION[1]" : 0.0627,
 									"POSITION" : 0.0,
 									"POSITION[1]" : 0.3084,
-									"SLICE" : 8.0,
+									"SLICE" : 1.0,
 									"SLICE[1]" : 12.0,
 									"amp_env[12]" : 13.0,
 									"amp_env[13]" : 0.0,
@@ -41333,32 +41411,32 @@
 									"hm_fm_env[9]" : 0.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 66.0,
-									"hm_pitch[10]" : 69.0,
-									"hm_pitch[11]" : 64.0,
-									"hm_pitch[1]" : 66.0,
-									"hm_pitch[2]" : 66.0,
+									"hm_pitch" : 60.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 60.0,
+									"hm_pitch[2]" : 60.0,
 									"hm_pitch[3]" : 60.0,
-									"hm_pitch[4]" : 59.0,
-									"hm_pitch[5]" : 55.0,
-									"hm_pitch[6]" : 57.0,
-									"hm_pitch[7]" : 70.0,
-									"hm_pitch[8]" : 68.0,
-									"hm_pitch[9]" : 61.0,
-									"hm_ratio" : 11.037254333496094,
-									"hm_ratio[10]" : 4.26274585723877,
-									"hm_ratio[11]" : 11.450980186462402,
-									"hm_ratio[1]" : 3.980391502380371,
-									"hm_ratio[2]" : 10.250975608825684,
-									"hm_ratio[3]" : 1.700000286102295,
-									"hm_ratio[4]" : 3.007843732833862,
-									"hm_ratio[5]" : 11.594119071960449,
-									"hm_ratio[6]" : 9.566662788391113,
-									"hm_ratio[7]" : 10.666666984558105,
-									"hm_ratio[8]" : 4.690196990966797,
+									"hm_pitch[4]" : 60.0,
+									"hm_pitch[5]" : 60.0,
+									"hm_pitch[6]" : 60.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 60.0,
+									"hm_pitch[9]" : 60.0,
+									"hm_ratio" : 11.237255096435547,
+									"hm_ratio[10]" : 4.562745571136475,
+									"hm_ratio[11]" : 11.650980949401855,
+									"hm_ratio[1]" : 3.280391931533813,
+									"hm_ratio[2]" : 11.450980186462402,
+									"hm_ratio[3]" : 0.200000017881393,
+									"hm_ratio[4]" : 3.607843160629272,
+									"hm_ratio[5]" : 10.894116401672363,
+									"hm_ratio[6]" : 10.366665840148926,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.490196228027344,
 									"hm_ratio[9]" : 1.668627500534058,
-									"import_media" : 0.0,
 									"import_media[1]" : 0.0,
+									"import_media[2]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
@@ -41374,7 +41452,7 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 6.0,
 									"media_selection[1]" : 6.0,
-									"pitch[12]" : 64.0,
+									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
 									"pitch[17]" : 67.0,
 									"pitch[18]" : 64.0,
@@ -41478,13 +41556,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Single.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -41623,93 +41703,91 @@
 									"POSITION[1]" : 0.3084,
 									"SLICE" : 1.0,
 									"SLICE[1]" : 11.0,
-									"amp_env[12]" : 1.0,
-									"amp_env[13]" : 8.0,
-									"amp_env[14]" : 6.0,
-									"amp_env[15]" : 4.0,
+									"amp_env[12]" : 9.0,
+									"amp_env[13]" : 9.0,
+									"amp_env[14]" : 3.0,
+									"amp_env[15]" : 7.0,
 									"clock_output_enable" : 0.0,
 									"delete_slice" : 0.0,
 									"delete_slice[1]" : 0.0,
-									"fm_env[12]" : 2.0,
+									"fm_env[12]" : 11.0,
 									"fm_env[16]" : 7.0,
 									"fm_env[17]" : 7.0,
-									"fm_env[18]" : 9.0,
-									"fm_env[19]" : 12.0,
-									"fm_env[20]" : 5.0,
+									"fm_env[18]" : 7.0,
+									"fm_env[19]" : 9.0,
+									"fm_env[20]" : 7.0,
 									"global_quantize_level" : 7.0,
-									"hm_amp_env" : 4.0,
-									"hm_amp_env[10]" : 6.0,
-									"hm_amp_env[11]" : 5.0,
-									"hm_amp_env[1]" : 14.0,
-									"hm_amp_env[2]" : 0.0,
-									"hm_amp_env[3]" : 1.0,
-									"hm_amp_env[4]" : 7.0,
-									"hm_amp_env[5]" : 8.0,
+									"hm_amp_env" : 0.0,
+									"hm_amp_env[10]" : 5.0,
+									"hm_amp_env[11]" : 4.0,
+									"hm_amp_env[1]" : 8.0,
+									"hm_amp_env[2]" : 8.0,
+									"hm_amp_env[3]" : 10.0,
+									"hm_amp_env[4]" : 10.0,
+									"hm_amp_env[5]" : 0.0,
 									"hm_amp_env[6]" : 0.0,
-									"hm_amp_env[7]" : 5.0,
-									"hm_amp_env[8]" : 4.0,
-									"hm_amp_env[9]" : 4.0,
+									"hm_amp_env[7]" : 7.0,
+									"hm_amp_env[8]" : 1.0,
+									"hm_amp_env[9]" : 12.0,
 									"hm_enable" : 0.0,
 									"hm_enable[10]" : 0.0,
-									"hm_enable[11]" : 0.0,
-									"hm_enable[1]" : 1.0,
-									"hm_enable[2]" : 0.0,
-									"hm_enable[3]" : 1.0,
-									"hm_enable[4]" : 1.0,
+									"hm_enable[11]" : 1.0,
+									"hm_enable[1]" : 0.0,
+									"hm_enable[2]" : 1.0,
+									"hm_enable[3]" : 0.0,
+									"hm_enable[4]" : 0.0,
 									"hm_enable[5]" : 1.0,
 									"hm_enable[6]" : 0.0,
 									"hm_enable[7]" : 1.0,
-									"hm_enable[8]" : 1.0,
-									"hm_enable[9]" : 0.0,
-									"hm_fm_env" : 0.0,
-									"hm_fm_env[10]" : 11.0,
+									"hm_enable[8]" : 0.0,
+									"hm_enable[9]" : 1.0,
+									"hm_fm_env" : 10.0,
+									"hm_fm_env[10]" : 10.0,
 									"hm_fm_env[11]" : 12.0,
 									"hm_fm_env[1]" : 9.0,
-									"hm_fm_env[2]" : 5.0,
-									"hm_fm_env[3]" : 5.0,
-									"hm_fm_env[4]" : 7.0,
-									"hm_fm_env[5]" : 10.0,
-									"hm_fm_env[6]" : 2.0,
-									"hm_fm_env[7]" : 8.0,
-									"hm_fm_env[8]" : 9.0,
-									"hm_fm_env[9]" : 6.0,
+									"hm_fm_env[2]" : 0.0,
+									"hm_fm_env[3]" : 8.0,
+									"hm_fm_env[4]" : 11.0,
+									"hm_fm_env[5]" : 9.0,
+									"hm_fm_env[6]" : 9.0,
+									"hm_fm_env[7]" : 10.0,
+									"hm_fm_env[8]" : 14.0,
+									"hm_fm_env[9]" : 14.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 59.0,
-									"hm_pitch[10]" : 57.0,
-									"hm_pitch[11]" : 63.0,
-									"hm_pitch[1]" : 56.0,
-									"hm_pitch[2]" : 54.0,
+									"hm_pitch" : 60.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 59.0,
+									"hm_pitch[2]" : 59.0,
 									"hm_pitch[3]" : 61.0,
 									"hm_pitch[4]" : 61.0,
-									"hm_pitch[5]" : 60.0,
-									"hm_pitch[6]" : 61.0,
-									"hm_pitch[7]" : 61.0,
-									"hm_pitch[8]" : 61.0,
+									"hm_pitch[5]" : 61.0,
+									"hm_pitch[6]" : 59.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 60.0,
 									"hm_pitch[9]" : 60.0,
 									"hm_ratio" : 11.337255477905273,
-									"hm_ratio[10]" : 4.662745475769043,
-									"hm_ratio[11]" : 11.150979042053223,
-									"hm_ratio[1]" : 3.680391550064087,
-									"hm_ratio[2]" : 11.450980186462402,
-									"hm_ratio[3]" : 0.0,
-									"hm_ratio[4]" : 3.707843065261841,
-									"hm_ratio[5]" : 11.194117546081543,
-									"hm_ratio[6]" : 9.66666316986084,
-									"hm_ratio[7]" : 11.066668510437012,
-									"hm_ratio[8]" : 4.990196704864502,
-									"hm_ratio[9]" : 1.268627405166626,
-									"import_media" : 0.0,
+									"hm_ratio[10]" : 4.562745571136475,
+									"hm_ratio[11]" : 11.550980567932129,
+									"hm_ratio[1]" : 3.280391931533813,
+									"hm_ratio[2]" : 11.350979804992676,
+									"hm_ratio[3]" : 0.300000011920929,
+									"hm_ratio[4]" : 3.607843160629272,
+									"hm_ratio[5]" : 10.894116401672363,
+									"hm_ratio[6]" : 10.266665458679199,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.590196132659912,
+									"hm_ratio[9]" : 1.768627524375916,
 									"import_media[1]" : 0.0,
 									"import_media[2]" : 0.0,
-									"import_media[3]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
 									"live.tab[3]" : 0.0,
 									"live.text[137]" : 1.0,
-									"live.text[21]" : 0.0,
-									"live.text[22]" : 0.0,
+									"live.text[21]" : 1.0,
+									"live.text[22]" : 1.0,
 									"live.text[50]" : 0.0,
 									"live.text[51]" : 1.0,
 									"live.text[57]" : 0.0,
@@ -41718,21 +41796,21 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 7.0,
 									"media_selection[1]" : 5.0,
-									"pitch[12]" : 67.0,
+									"pitch[12]" : 61.0,
 									"pitch[16]" : 60.0,
-									"pitch[17]" : 61.0,
+									"pitch[17]" : 60.0,
 									"pitch[18]" : 60.0,
-									"pitch[19]" : 62.0,
+									"pitch[19]" : 59.0,
 									"pitch_sequencer_run" : 0.0,
 									"pitch_sequencer_run[1]" : 1.0,
 									"pitch_sequencer_step_size" : 0.0,
 									"pitch_sequencer_step_size[1]" : 0.0,
 									"random_transpose_prob" : 0.0,
 									"random_transpose_prob[1]" : 0.0,
-									"ratio[12]" : 11.650980949401855,
-									"ratio[13]" : 11.650980949401855,
-									"ratio[14]" : 4.705882549285889,
-									"ratio[15]" : 9.982353210449219,
+									"ratio[12]" : 11.750981330871582,
+									"ratio[13]" : 12.150982856750488,
+									"ratio[14]" : 4.805882453918457,
+									"ratio[15]" : 9.882352828979492,
 									"reverse" : 0.0,
 									"reverse[1]" : 0.0,
 									"slice_onset_mode" : 1.0,
@@ -41822,13 +41900,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Doumbek Single.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Loop.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Doumbek Single.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Djemne Loop.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -41840,10 +41920,10 @@
 										"amp_amt[14]" : [ 80.0 ],
 										"amp_amt[15]" : [ 80.0 ],
 										"duration[16]" : [ "16n" ],
-										"duration[17]" : [ "32nd" ],
-										"duration[18]" : [ "16n" ],
-										"duration[19]" : [ "64n" ],
-										"duration[20]" : [ "16n" ],
+										"duration[17]" : [ "1n" ],
+										"duration[18]" : [ "4n" ],
+										"duration[19]" : [ "16n" ],
+										"duration[20]" : [ "8n" ],
 										"hm_FM_amt" : [ 25.0 ],
 										"hm_FM_amt[10]" : [ 23.0 ],
 										"hm_FM_amt[11]" : [ 70.0 ],
@@ -41868,17 +41948,17 @@
 										"hm_amp_amt[7]" : [ 80.0 ],
 										"hm_amp_amt[8]" : [ 80.0 ],
 										"hm_amp_amt[9]" : [ 80.0 ],
-										"hm_duration" : [ "8n" ],
-										"hm_duration[10]" : [ "8n" ],
-										"hm_duration[11]" : [ "16n" ],
-										"hm_duration[1]" : [ "64n" ],
-										"hm_duration[2]" : [ "8n" ],
+										"hm_duration" : [ "16n" ],
+										"hm_duration[10]" : [ "1n" ],
+										"hm_duration[11]" : [ "1n" ],
+										"hm_duration[1]" : [ "8n" ],
+										"hm_duration[2]" : [ "16n" ],
 										"hm_duration[3]" : [ "16n" ],
-										"hm_duration[4]" : [ "1n" ],
-										"hm_duration[5]" : [ "4n" ],
-										"hm_duration[6]" : [ "64n" ],
-										"hm_duration[7]" : [ "16n" ],
-										"hm_duration[8]" : [ "16n" ],
+										"hm_duration[4]" : [ "16n" ],
+										"hm_duration[5]" : [ "32nd" ],
+										"hm_duration[6]" : [ "1n" ],
+										"hm_duration[7]" : [ "1nt" ],
+										"hm_duration[8]" : [ "8n" ],
 										"hm_duration[9]" : [ "8n" ],
 										"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
@@ -41966,93 +42046,93 @@
 									"POSITION" : 0.0,
 									"POSITION[1]" : 0.3084,
 									"SLICE" : 12.0,
-									"SLICE[1]" : 12.0,
-									"amp_env[12]" : 1.0,
-									"amp_env[13]" : 10.0,
-									"amp_env[14]" : 5.0,
-									"amp_env[15]" : 15.0,
+									"SLICE[1]" : 11.0,
+									"amp_env[12]" : 7.0,
+									"amp_env[13]" : 3.0,
+									"amp_env[14]" : 4.0,
+									"amp_env[15]" : 1.0,
 									"clock_output_enable" : 0.0,
 									"delete_slice" : 0.0,
 									"delete_slice[1]" : 0.0,
-									"fm_env[12]" : 11.0,
+									"fm_env[12]" : 4.0,
 									"fm_env[16]" : 7.0,
 									"fm_env[17]" : 7.0,
-									"fm_env[18]" : 2.0,
+									"fm_env[18]" : 4.0,
 									"fm_env[19]" : 11.0,
-									"fm_env[20]" : 2.0,
+									"fm_env[20]" : 13.0,
 									"global_quantize_level" : 13.0,
-									"hm_amp_env" : 1.0,
-									"hm_amp_env[10]" : 6.0,
+									"hm_amp_env" : 10.0,
+									"hm_amp_env[10]" : 3.0,
 									"hm_amp_env[11]" : 12.0,
-									"hm_amp_env[1]" : 0.0,
-									"hm_amp_env[2]" : 4.0,
+									"hm_amp_env[1]" : 9.0,
+									"hm_amp_env[2]" : 14.0,
 									"hm_amp_env[3]" : 7.0,
-									"hm_amp_env[4]" : 8.0,
-									"hm_amp_env[5]" : 6.0,
-									"hm_amp_env[6]" : 13.0,
-									"hm_amp_env[7]" : 0.0,
-									"hm_amp_env[8]" : 11.0,
-									"hm_amp_env[9]" : 10.0,
+									"hm_amp_env[4]" : 0.0,
+									"hm_amp_env[5]" : 0.0,
+									"hm_amp_env[6]" : 3.0,
+									"hm_amp_env[7]" : 9.0,
+									"hm_amp_env[8]" : 15.0,
+									"hm_amp_env[9]" : 0.0,
 									"hm_enable" : 0.0,
-									"hm_enable[10]" : 1.0,
+									"hm_enable[10]" : 0.0,
 									"hm_enable[11]" : 1.0,
 									"hm_enable[1]" : 0.0,
 									"hm_enable[2]" : 0.0,
 									"hm_enable[3]" : 0.0,
 									"hm_enable[4]" : 0.0,
-									"hm_enable[5]" : 0.0,
+									"hm_enable[5]" : 1.0,
 									"hm_enable[6]" : 0.0,
-									"hm_enable[7]" : 1.0,
+									"hm_enable[7]" : 0.0,
 									"hm_enable[8]" : 0.0,
 									"hm_enable[9]" : 1.0,
-									"hm_fm_env" : 11.0,
-									"hm_fm_env[10]" : 12.0,
+									"hm_fm_env" : 3.0,
+									"hm_fm_env[10]" : 3.0,
 									"hm_fm_env[11]" : 9.0,
-									"hm_fm_env[1]" : 5.0,
-									"hm_fm_env[2]" : 5.0,
-									"hm_fm_env[3]" : 8.0,
-									"hm_fm_env[4]" : 11.0,
-									"hm_fm_env[5]" : 10.0,
+									"hm_fm_env[1]" : 9.0,
+									"hm_fm_env[2]" : 11.0,
+									"hm_fm_env[3]" : 5.0,
+									"hm_fm_env[4]" : 6.0,
+									"hm_fm_env[5]" : 5.0,
 									"hm_fm_env[6]" : 12.0,
-									"hm_fm_env[7]" : 0.0,
-									"hm_fm_env[8]" : 14.0,
-									"hm_fm_env[9]" : 9.0,
+									"hm_fm_env[7]" : 11.0,
+									"hm_fm_env[8]" : 3.0,
+									"hm_fm_env[9]" : 0.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 50.0,
-									"hm_pitch[10]" : 61.0,
-									"hm_pitch[11]" : 63.0,
-									"hm_pitch[1]" : 60.0,
-									"hm_pitch[2]" : 71.0,
-									"hm_pitch[3]" : 62.0,
-									"hm_pitch[4]" : 56.0,
-									"hm_pitch[5]" : 68.0,
-									"hm_pitch[6]" : 58.0,
-									"hm_pitch[7]" : 66.0,
+									"hm_pitch" : 61.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 61.0,
+									"hm_pitch[1]" : 59.0,
+									"hm_pitch[2]" : 59.0,
+									"hm_pitch[3]" : 61.0,
+									"hm_pitch[4]" : 61.0,
+									"hm_pitch[5]" : 59.0,
+									"hm_pitch[6]" : 60.0,
+									"hm_pitch[7]" : 60.0,
 									"hm_pitch[8]" : 60.0,
-									"hm_pitch[9]" : 55.0,
+									"hm_pitch[9]" : 59.0,
 									"hm_ratio" : 11.237255096435547,
-									"hm_ratio[10]" : 4.362745761871338,
-									"hm_ratio[11]" : 11.550980567932129,
-									"hm_ratio[1]" : 3.080392122268677,
-									"hm_ratio[2]" : 12.150982856750488,
-									"hm_ratio[3]" : 0.100000001490116,
-									"hm_ratio[4]" : 3.207843542098999,
-									"hm_ratio[5]" : 10.294114112854004,
-									"hm_ratio[6]" : 10.666666984558105,
-									"hm_ratio[7]" : 9.766663551330566,
-									"hm_ratio[8]" : 4.890196800231934,
-									"hm_ratio[9]" : 0.968627333641052,
-									"import_media" : 0.0,
+									"hm_ratio[10]" : 4.462745666503906,
+									"hm_ratio[11]" : 11.750981330871582,
+									"hm_ratio[1]" : 3.380391836166382,
+									"hm_ratio[2]" : 11.350979804992676,
+									"hm_ratio[3]" : 0.200000017881393,
+									"hm_ratio[4]" : 3.707843065261841,
+									"hm_ratio[5]" : 10.894116401672363,
+									"hm_ratio[6]" : 10.466666221618652,
+									"hm_ratio[7]" : 10.366665840148926,
+									"hm_ratio[8]" : 5.490196228027344,
+									"hm_ratio[9]" : 1.768627524375916,
 									"import_media[1]" : 0.0,
+									"import_media[2]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
 									"live.tab[3]" : 0.0,
 									"live.text[137]" : 1.0,
-									"live.text[21]" : 0.0,
+									"live.text[21]" : 1.0,
 									"live.text[22]" : 1.0,
-									"live.text[50]" : 1.0,
+									"live.text[50]" : 0.0,
 									"live.text[51]" : 1.0,
 									"live.text[57]" : 0.0,
 									"live.text[58]" : 0.0,
@@ -42060,21 +42140,21 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 15.0,
 									"media_selection[1]" : 15.0,
-									"pitch[12]" : 64.0,
+									"pitch[12]" : 61.0,
 									"pitch[16]" : 60.0,
-									"pitch[17]" : 68.0,
-									"pitch[18]" : 57.0,
-									"pitch[19]" : 53.0,
+									"pitch[17]" : 59.0,
+									"pitch[18]" : 60.0,
+									"pitch[19]" : 61.0,
 									"pitch_sequencer_run" : 1.0,
 									"pitch_sequencer_run[1]" : 1.0,
 									"pitch_sequencer_step_size" : 1.0,
 									"pitch_sequencer_step_size[1]" : 0.0,
 									"random_transpose_prob" : 0.0,
 									"random_transpose_prob[1]" : 0.0,
-									"ratio[12]" : 11.250979423522949,
-									"ratio[13]" : 12.250983238220215,
+									"ratio[12]" : 11.750981330871582,
+									"ratio[13]" : 12.150982856750488,
 									"ratio[14]" : 4.805882453918457,
-									"ratio[15]" : 10.382354736328125,
+									"ratio[15]" : 9.882352828979492,
 									"reverse" : 0.0,
 									"reverse[1]" : 0.0,
 									"slice_onset_mode" : 0.0,
@@ -42164,13 +42244,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Stretta Vox 02.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Stretta Vox 02.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Stretta Vox 02.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Stretta Vox 02.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -42182,7 +42264,7 @@
 										"amp_amt[14]" : [ 80.0 ],
 										"amp_amt[15]" : [ 80.0 ],
 										"duration[16]" : [ "16n" ],
-										"duration[17]" : [ "64n" ],
+										"duration[17]" : [ "16n" ],
 										"duration[18]" : [ "16n" ],
 										"duration[19]" : [ "16n" ],
 										"duration[20]" : [ "16n" ],
@@ -42210,18 +42292,18 @@
 										"hm_amp_amt[7]" : [ 80.0 ],
 										"hm_amp_amt[8]" : [ 80.0 ],
 										"hm_amp_amt[9]" : [ 80.0 ],
-										"hm_duration" : [ "1n" ],
-										"hm_duration[10]" : [ "4n" ],
+										"hm_duration" : [ "1nt" ],
+										"hm_duration[10]" : [ "16n" ],
 										"hm_duration[11]" : [ "32nd" ],
-										"hm_duration[1]" : [ "1n" ],
-										"hm_duration[2]" : [ "4n" ],
+										"hm_duration[1]" : [ "16n" ],
+										"hm_duration[2]" : [ "1n" ],
 										"hm_duration[3]" : [ "16n" ],
-										"hm_duration[4]" : [ "8n" ],
+										"hm_duration[4]" : [ "16n" ],
 										"hm_duration[5]" : [ "8n" ],
-										"hm_duration[6]" : [ "2n" ],
-										"hm_duration[7]" : [ "64n" ],
-										"hm_duration[8]" : [ "16n" ],
-										"hm_duration[9]" : [ "8n" ],
+										"hm_duration[6]" : [ "32nd" ],
+										"hm_duration[7]" : [ "4n" ],
+										"hm_duration[8]" : [ "8n" ],
+										"hm_duration[9]" : [ "16n" ],
 										"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"mod_source_mod_type" : [ 0 ],
@@ -42309,94 +42391,92 @@
 									"POSITION[1]" : 0.319,
 									"SLICE" : 3.0,
 									"SLICE[1]" : 3.0,
-									"amp_env[12]" : 1.0,
-									"amp_env[13]" : 12.0,
-									"amp_env[14]" : 9.0,
-									"amp_env[15]" : 1.0,
+									"amp_env[12]" : 3.0,
+									"amp_env[13]" : 5.0,
+									"amp_env[14]" : 11.0,
+									"amp_env[15]" : 0.0,
 									"clock_output_enable" : 0.0,
 									"delete_slice" : 0.0,
 									"delete_slice[1]" : 0.0,
-									"fm_env[12]" : 1.0,
+									"fm_env[12]" : 13.0,
 									"fm_env[16]" : 7.0,
 									"fm_env[17]" : 7.0,
-									"fm_env[18]" : 12.0,
-									"fm_env[19]" : 0.0,
-									"fm_env[20]" : 7.0,
+									"fm_env[18]" : 7.0,
+									"fm_env[19]" : 1.0,
+									"fm_env[20]" : 3.0,
 									"global_quantize_level" : 13.0,
-									"hm_amp_env" : 7.0,
+									"hm_amp_env" : 9.0,
 									"hm_amp_env[10]" : 0.0,
-									"hm_amp_env[11]" : 3.0,
-									"hm_amp_env[1]" : 4.0,
-									"hm_amp_env[2]" : 9.0,
-									"hm_amp_env[3]" : 5.0,
-									"hm_amp_env[4]" : 8.0,
-									"hm_amp_env[5]" : 3.0,
-									"hm_amp_env[6]" : 0.0,
-									"hm_amp_env[7]" : 2.0,
-									"hm_amp_env[8]" : 0.0,
-									"hm_amp_env[9]" : 1.0,
-									"hm_enable" : 0.0,
-									"hm_enable[10]" : 1.0,
-									"hm_enable[11]" : 0.0,
-									"hm_enable[1]" : 1.0,
+									"hm_amp_env[11]" : 10.0,
+									"hm_amp_env[1]" : 8.0,
+									"hm_amp_env[2]" : 4.0,
+									"hm_amp_env[3]" : 3.0,
+									"hm_amp_env[4]" : 6.0,
+									"hm_amp_env[5]" : 10.0,
+									"hm_amp_env[6]" : 10.0,
+									"hm_amp_env[7]" : 8.0,
+									"hm_amp_env[8]" : 1.0,
+									"hm_amp_env[9]" : 4.0,
+									"hm_enable" : 1.0,
+									"hm_enable[10]" : 0.0,
+									"hm_enable[11]" : 1.0,
+									"hm_enable[1]" : 0.0,
 									"hm_enable[2]" : 0.0,
-									"hm_enable[3]" : 1.0,
+									"hm_enable[3]" : 0.0,
 									"hm_enable[4]" : 0.0,
 									"hm_enable[5]" : 1.0,
 									"hm_enable[6]" : 0.0,
 									"hm_enable[7]" : 1.0,
 									"hm_enable[8]" : 0.0,
 									"hm_enable[9]" : 1.0,
-									"hm_fm_env" : 8.0,
-									"hm_fm_env[10]" : 0.0,
-									"hm_fm_env[11]" : 8.0,
-									"hm_fm_env[1]" : 13.0,
-									"hm_fm_env[2]" : 4.0,
-									"hm_fm_env[3]" : 6.0,
-									"hm_fm_env[4]" : 8.0,
-									"hm_fm_env[5]" : 2.0,
+									"hm_fm_env" : 9.0,
+									"hm_fm_env[10]" : 13.0,
+									"hm_fm_env[11]" : 9.0,
+									"hm_fm_env[1]" : 9.0,
+									"hm_fm_env[2]" : 7.0,
+									"hm_fm_env[3]" : 0.0,
+									"hm_fm_env[4]" : 7.0,
+									"hm_fm_env[5]" : 13.0,
 									"hm_fm_env[6]" : 13.0,
-									"hm_fm_env[7]" : 2.0,
-									"hm_fm_env[8]" : 10.0,
-									"hm_fm_env[9]" : 12.0,
+									"hm_fm_env[7]" : 12.0,
+									"hm_fm_env[8]" : 1.0,
+									"hm_fm_env[9]" : 3.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 71.0,
-									"hm_pitch[10]" : 45.0,
-									"hm_pitch[11]" : 56.0,
-									"hm_pitch[1]" : 63.0,
-									"hm_pitch[2]" : 52.0,
-									"hm_pitch[3]" : 66.0,
-									"hm_pitch[4]" : 44.0,
-									"hm_pitch[5]" : 58.0,
-									"hm_pitch[6]" : 50.0,
-									"hm_pitch[7]" : 64.0,
-									"hm_pitch[8]" : 47.0,
-									"hm_pitch[9]" : 61.0,
-									"hm_ratio" : 10.637252807617188,
-									"hm_ratio[10]" : 6.262743949890137,
-									"hm_ratio[11]" : 10.750977516174316,
-									"hm_ratio[1]" : 4.380391120910645,
-									"hm_ratio[2]" : 10.35097599029541,
-									"hm_ratio[3]" : 0.200000017881393,
-									"hm_ratio[4]" : 2.907844066619873,
-									"hm_ratio[5]" : 11.094117164611816,
-									"hm_ratio[6]" : 11.466670036315918,
-									"hm_ratio[7]" : 10.966668128967285,
-									"hm_ratio[8]" : 5.290196418762207,
-									"hm_ratio[9]" : 1.968627572059631,
-									"import_media" : 0.0,
+									"hm_pitch" : 61.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 59.0,
+									"hm_pitch[2]" : 59.0,
+									"hm_pitch[3]" : 59.0,
+									"hm_pitch[4]" : 59.0,
+									"hm_pitch[5]" : 61.0,
+									"hm_pitch[6]" : 61.0,
+									"hm_pitch[7]" : 61.0,
+									"hm_pitch[8]" : 59.0,
+									"hm_pitch[9]" : 60.0,
+									"hm_ratio" : 11.237255096435547,
+									"hm_ratio[10]" : 4.462745666503906,
+									"hm_ratio[11]" : 11.750981330871582,
+									"hm_ratio[1]" : 3.380391836166382,
+									"hm_ratio[2]" : 11.350979804992676,
+									"hm_ratio[3]" : 0.300000011920929,
+									"hm_ratio[4]" : 3.707843065261841,
+									"hm_ratio[5]" : 10.794116020202637,
+									"hm_ratio[6]" : 10.366665840148926,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.490196228027344,
+									"hm_ratio[9]" : 1.768627524375916,
 									"import_media[1]" : 0.0,
 									"import_media[2]" : 0.0,
-									"import_media[3]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
 									"live.tab[3]" : 0.0,
 									"live.text[137]" : 1.0,
-									"live.text[21]" : 1.0,
+									"live.text[21]" : 0.0,
 									"live.text[22]" : 1.0,
-									"live.text[50]" : 0.0,
+									"live.text[50]" : 1.0,
 									"live.text[51]" : 1.0,
 									"live.text[57]" : 0.0,
 									"live.text[58]" : 0.0,
@@ -42404,21 +42484,21 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 10.0,
 									"media_selection[1]" : 10.0,
-									"pitch[12]" : 62.0,
+									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
-									"pitch[17]" : 71.0,
-									"pitch[18]" : 65.0,
-									"pitch[19]" : 62.0,
+									"pitch[17]" : 59.0,
+									"pitch[18]" : 59.0,
+									"pitch[19]" : 60.0,
 									"pitch_sequencer_run" : 1.0,
 									"pitch_sequencer_run[1]" : 0.0,
 									"pitch_sequencer_step_size" : 4.0,
 									"pitch_sequencer_step_size[1]" : 3.0,
 									"random_transpose_prob" : 0.0,
 									"random_transpose_prob[1]" : 0.0,
-									"ratio[12]" : 12.950985908508301,
-									"ratio[13]" : 12.950985908508301,
-									"ratio[14]" : 5.505881786346436,
-									"ratio[15]" : 11.68235969543457,
+									"ratio[12]" : 11.550980567932129,
+									"ratio[13]" : 12.150982856750488,
+									"ratio[14]" : 5.005882263183594,
+									"ratio[15]" : 9.682352066040039,
 									"reverse" : 0.0,
 									"reverse[1]" : 0.0,
 									"slice_onset_mode" : 0.0,
@@ -42508,13 +42588,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Chords.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Chords.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Chords.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Piano Chords.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -42526,10 +42608,10 @@
 										"amp_amt[14]" : [ 80.0 ],
 										"amp_amt[15]" : [ 80.0 ],
 										"duration[16]" : [ "16n" ],
-										"duration[17]" : [ "1n" ],
-										"duration[18]" : [ "4n" ],
-										"duration[19]" : [ "4n" ],
-										"duration[20]" : [ "16n" ],
+										"duration[17]" : [ "64n" ],
+										"duration[18]" : [ "64n" ],
+										"duration[19]" : [ "16n" ],
+										"duration[20]" : [ "8n" ],
 										"hm_FM_amt" : [ 25.0 ],
 										"hm_FM_amt[10]" : [ 23.0 ],
 										"hm_FM_amt[11]" : [ 70.0 ],
@@ -42554,18 +42636,18 @@
 										"hm_amp_amt[7]" : [ 80.0 ],
 										"hm_amp_amt[8]" : [ 80.0 ],
 										"hm_amp_amt[9]" : [ 80.0 ],
-										"hm_duration" : [ "4n" ],
-										"hm_duration[10]" : [ "64n" ],
-										"hm_duration[11]" : [ "16n" ],
+										"hm_duration" : [ "64n" ],
+										"hm_duration[10]" : [ "8n" ],
+										"hm_duration[11]" : [ "64n" ],
 										"hm_duration[1]" : [ "16n" ],
 										"hm_duration[2]" : [ "16n" ],
 										"hm_duration[3]" : [ "4n" ],
-										"hm_duration[4]" : [ "1n" ],
+										"hm_duration[4]" : [ "64n" ],
 										"hm_duration[5]" : [ "8n" ],
-										"hm_duration[6]" : [ "1n" ],
-										"hm_duration[7]" : [ "8n" ],
-										"hm_duration[8]" : [ "16n" ],
-										"hm_duration[9]" : [ "16n" ],
+										"hm_duration[6]" : [ "16n" ],
+										"hm_duration[7]" : [ "16n" ],
+										"hm_duration[8]" : [ "1n" ],
+										"hm_duration[9]" : [ "2n" ],
 										"intervallic_pitch_set" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"intervallic_pitch_set[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 										"mod_source_mod_type" : [ 0 ],
@@ -42705,34 +42787,32 @@
 									"hm_fm_env[9]" : 10.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 69.0,
-									"hm_pitch[10]" : 33.0,
-									"hm_pitch[11]" : 52.0,
-									"hm_pitch[1]" : 56.0,
-									"hm_pitch[2]" : 61.0,
-									"hm_pitch[3]" : 77.0,
-									"hm_pitch[4]" : 41.0,
-									"hm_pitch[5]" : 54.0,
-									"hm_pitch[6]" : 49.0,
-									"hm_pitch[7]" : 70.0,
-									"hm_pitch[8]" : 50.0,
-									"hm_pitch[9]" : 55.0,
-									"hm_ratio" : 10.437252044677734,
-									"hm_ratio[10]" : 5.862744331359863,
-									"hm_ratio[11]" : 11.250979423522949,
-									"hm_ratio[1]" : 3.980391502380371,
-									"hm_ratio[2]" : 11.550980567932129,
-									"hm_ratio[3]" : 1.00000011920929,
-									"hm_ratio[4]" : 4.007843017578125,
-									"hm_ratio[5]" : 11.394118309020996,
-									"hm_ratio[6]" : 10.566666603088379,
-									"hm_ratio[7]" : 11.866671562194824,
-									"hm_ratio[8]" : 5.69019603729248,
-									"hm_ratio[9]" : 2.268627405166626,
-									"import_media" : 0.0,
+									"hm_pitch" : 60.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 60.0,
+									"hm_pitch[2]" : 60.0,
+									"hm_pitch[3]" : 60.0,
+									"hm_pitch[4]" : 60.0,
+									"hm_pitch[5]" : 60.0,
+									"hm_pitch[6]" : 60.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 60.0,
+									"hm_pitch[9]" : 60.0,
+									"hm_ratio" : 11.237255096435547,
+									"hm_ratio[10]" : 4.562745571136475,
+									"hm_ratio[11]" : 11.650980949401855,
+									"hm_ratio[1]" : 3.280391931533813,
+									"hm_ratio[2]" : 11.450980186462402,
+									"hm_ratio[3]" : 0.200000017881393,
+									"hm_ratio[4]" : 3.607843160629272,
+									"hm_ratio[5]" : 10.894116401672363,
+									"hm_ratio[6]" : 10.366665840148926,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.490196228027344,
+									"hm_ratio[9]" : 1.668627500534058,
 									"import_media[1]" : 0.0,
 									"import_media[2]" : 0.0,
-									"import_media[3]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
@@ -42748,7 +42828,7 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 1.0,
 									"media_selection[1]" : 1.0,
-									"pitch[12]" : 61.0,
+									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
 									"pitch[17]" : 65.0,
 									"pitch[18]" : 63.0,
@@ -42852,13 +42932,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -43049,34 +43131,32 @@
 									"hm_fm_env[9]" : 0.0,
 									"hm_generate[4]" : 0.0,
 									"hm_global_transpose" : 0.0,
-									"hm_pitch" : 64.0,
-									"hm_pitch[10]" : 40.0,
-									"hm_pitch[11]" : 53.0,
-									"hm_pitch[1]" : 58.0,
-									"hm_pitch[2]" : 48.0,
-									"hm_pitch[3]" : 84.0,
-									"hm_pitch[4]" : 44.0,
-									"hm_pitch[5]" : 58.0,
-									"hm_pitch[6]" : 46.0,
-									"hm_pitch[7]" : 66.0,
-									"hm_pitch[8]" : 43.0,
-									"hm_pitch[9]" : 47.0,
-									"hm_ratio" : 10.837253570556641,
-									"hm_ratio[10]" : 6.462743759155273,
-									"hm_ratio[11]" : 10.250975608825684,
-									"hm_ratio[1]" : 4.68039083480835,
-									"hm_ratio[2]" : 11.650980949401855,
-									"hm_ratio[3]" : 1.400000214576721,
-									"hm_ratio[4]" : 3.607843399047852,
+									"hm_pitch" : 60.0,
+									"hm_pitch[10]" : 60.0,
+									"hm_pitch[11]" : 60.0,
+									"hm_pitch[1]" : 60.0,
+									"hm_pitch[2]" : 60.0,
+									"hm_pitch[3]" : 60.0,
+									"hm_pitch[4]" : 60.0,
+									"hm_pitch[5]" : 60.0,
+									"hm_pitch[6]" : 60.0,
+									"hm_pitch[7]" : 60.0,
+									"hm_pitch[8]" : 60.0,
+									"hm_pitch[9]" : 60.0,
+									"hm_ratio" : 11.237255096435547,
+									"hm_ratio[10]" : 4.562745571136475,
+									"hm_ratio[11]" : 11.650980949401855,
+									"hm_ratio[1]" : 3.280391931533813,
+									"hm_ratio[2]" : 11.450980186462402,
+									"hm_ratio[3]" : 0.200000017881393,
+									"hm_ratio[4]" : 3.607843160629272,
 									"hm_ratio[5]" : 10.894116401672363,
-									"hm_ratio[6]" : 10.266665458679199,
-									"hm_ratio[7]" : 11.766671180725098,
-									"hm_ratio[8]" : 4.49019718170166,
+									"hm_ratio[6]" : 10.366665840148926,
+									"hm_ratio[7]" : 10.466666221618652,
+									"hm_ratio[8]" : 5.490196228027344,
 									"hm_ratio[9]" : 1.668627500534058,
-									"import_media" : 0.0,
 									"import_media[1]" : 0.0,
 									"import_media[2]" : 0.0,
-									"import_media[3]" : 0.0,
 									"link_enable" : 1.0,
 									"link_enable[1]" : 1.0,
 									"live.numbox[41]" : 1.0,
@@ -43092,7 +43172,7 @@
 									"live.text[78]" : 0.0,
 									"media_selection" : 1.0,
 									"media_selection[1]" : 1.0,
-									"pitch[12]" : 54.0,
+									"pitch[12]" : 60.0,
 									"pitch[16]" : 60.0,
 									"pitch[17]" : 63.0,
 									"pitch[18]" : 65.0,
@@ -43196,13 +43276,15 @@
 									"umenu[6]" : 0.0,
 									"umenu[7]" : 0.0,
 									"umenu[8]" : 0.0,
-									"write_media" : 0.0,
-									"write_media[1]" : 0.0,
 									"te_effects_lpf_lfo_time_mode" : 1.0,
 									"te_effects_lpf_lfo_time_mode[1]" : 1.0,
 									"te_effects_tremolo_lfo_time_mode" : 1.0,
 									"te_effects_tremolo_lfo_time_mode[1]" : 1.0,
 									"blob" : 									{
+										"0_media_audio" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.wav" ],
+										"0_media_audio[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.wav" ],
+										"0_media_database" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.txt" ],
+										"0_media_database[1]" : [ "Macintosh HD:/Users/matthew/Documents/Max 8/Projects/TextureExplorer/Stretta Texture Explorer/patchers/../media/Analog Textures 01.txt" ],
 										"FM_amt[12]" : [ 15.0 ],
 										"FM_amt[13]" : [ 98.0 ],
 										"FM_amt[14]" : [ 78.0 ],
@@ -43366,9 +43448,11 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -43379,10 +43463,8 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ]
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43391,9 +43473,9 @@
 , 			{
 				"name" : "M4L 10 Bold",
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43402,8 +43484,8 @@
 , 			{
 				"name" : "Matt",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43426,9 +43508,9 @@
 , 			{
 				"name" : "Teaching",
 				"default" : 				{
-					"fontface" : [ 0 ],
 					"fontsize" : [ 18.0 ],
-					"elementcolor" : [ 0.375889, 0.380647, 0.363084, 1.0 ]
+					"elementcolor" : [ 0.375889, 0.380647, 0.363084, 1.0 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43437,9 +43519,13 @@
 , 			{
 				"name" : "Transparent",
 				"default" : 				{
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.35 ],
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"textjustification" : [ 1 ],
+					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Rubik" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.904179, 0.895477, 0.842975, 0.74 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -43450,12 +43536,8 @@
 						"autogradient" : 0
 					}
 ,
-					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"textjustification" : [ 1 ],
-					"accentcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Rubik" ]
+					"color" : [ 0.904179, 0.895477, 0.842975, 0.74 ],
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.35 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43464,9 +43546,11 @@
 , 			{
 				"name" : "WTF",
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
+					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"fontname" : [ "HydrogenType" ],
 					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -43477,10 +43561,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 18.0 ],
-					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
-					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"fontname" : [ "HydrogenType" ]
+					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43489,12 +43571,12 @@
 , 			{
 				"name" : "a.ke",
 				"default" : 				{
-					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"fontface" : [ 0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"fontname" : [ "Andale Mono" ]
+					"fontname" : [ "Andale Mono" ],
+					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
+					"fontface" : [ 0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43503,10 +43585,11 @@
 , 			{
 				"name" : "classic",
 				"default" : 				{
+					"fontsize" : [ 9.0 ],
+					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontname" : [ "Geneva" ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -43516,9 +43599,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
-					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"fontname" : [ "Geneva" ]
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43572,10 +43654,10 @@
 , 			{
 				"name" : "classicKslider",
 				"default" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43584,8 +43666,8 @@
 , 			{
 				"name" : "classicLed",
 				"default" : 				{
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.6, 0.0, 0.0, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43603,8 +43685,8 @@
 , 			{
 				"name" : "classicMeter~",
 				"default" : 				{
-					"bgcolor" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"bgcolor" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43613,9 +43695,9 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
-					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
 					"fontsize" : [ 9.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43660,8 +43742,8 @@
 , 			{
 				"name" : "classicScope~",
 				"default" : 				{
-					"bgcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"color" : [ 0.462745, 0.933333, 0.0, 1.0 ]
+					"color" : [ 0.462745, 0.933333, 0.0, 1.0 ],
+					"bgcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43670,8 +43752,8 @@
 , 			{
 				"name" : "classicTab",
 				"default" : 				{
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
+					"elementcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43680,8 +43762,8 @@
 , 			{
 				"name" : "classicTextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43690,8 +43772,8 @@
 , 			{
 				"name" : "classicToggle",
 				"default" : 				{
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ]
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43709,8 +43791,8 @@
 , 			{
 				"name" : "classicWaveform~",
 				"default" : 				{
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43719,6 +43801,8 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -43728,9 +43812,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -43739,10 +43821,11 @@
 , 			{
 				"name" : "irv",
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -43753,9 +43836,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43769,6 +43851,8 @@
 , 			{
 				"name" : "jpatcher002",
 				"default" : 				{
+					"fontsize" : [ 9.5 ],
+					"fontname" : [ "Ableton Sans Book" ],
 					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -43779,9 +43863,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.5 ],
-					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
-					"fontname" : [ "Ableton Sans Book" ]
+					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43790,9 +43872,11 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -43803,10 +43887,8 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ]
 				}
 ,
@@ -43825,8 +43907,8 @@
 , 			{
 				"name" : "lightbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.309495, 0.299387, 0.299789, 1.0 ],
-					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+					"bgcolor" : [ 0.309495, 0.299387, 0.299789, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43927,8 +44009,8 @@
 , 			{
 				"name" : "purple",
 				"default" : 				{
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
-					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43946,8 +44028,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43965,8 +44047,8 @@
 , 			{
 				"name" : "sliderGold-1",
 				"default" : 				{
-					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ],
-					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.907107, 0.934609, 0.842715, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43975,9 +44057,9 @@
 , 			{
 				"name" : "stb001",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -43995,8 +44077,8 @@
 , 			{
 				"name" : "tastefulltoggle",
 				"default" : 				{
-					"bgcolor" : [ 0.185512, 0.263736, 0.260626, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"bgcolor" : [ 0.185512, 0.263736, 0.260626, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -44005,9 +44087,9 @@
 , 			{
 				"name" : "tastefultoggle",
 				"default" : 				{
-					"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
+					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"elementcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+					"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -44016,8 +44098,8 @@
 , 			{
 				"name" : "test",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -44026,8 +44108,8 @@
 , 			{
 				"name" : "texteditGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
 				}
 ,
 				"parentstyle" : "",
@@ -44036,11 +44118,11 @@
 , 			{
 				"name" : "whitey",
 				"default" : 				{
-					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
-					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"fontsize" : [ 36.0 ],
-					"fontname" : [ "Dirty Ego" ]
+					"fontname" : [ "Dirty Ego" ],
+					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
+					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
