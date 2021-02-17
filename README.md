@@ -1,4 +1,4 @@
-# TextureExplorer
+# Texture Explorer
  
 To get started, click the green 'code' button and download zip. 
 Texture Explorer requires the free Max 8 runtime enviroment.
